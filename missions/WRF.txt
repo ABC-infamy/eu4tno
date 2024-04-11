@@ -962,7 +962,7 @@ tno_wrrf_missions_32 = {
 			add_country_modifier = {
 				name = bonus_1
 				duration = 100
-				desc = WRRF_famine_DESC_TOOLTIP
+				desc = WRRF_bonus1_DESC_TOOLTIP
     			hidden = no
 			}
 		}
@@ -993,7 +993,7 @@ tno_wrrf_missions_33 = {
 			add_country_modifier = {
 				name = bonus_2
 				duration = 100
-				desc = WRRF_famine_DESC_TOOLTIP
+				desc = WRRF_bonus2_DESC_TOOLTIP
     			hidden = no
 			}
 		}

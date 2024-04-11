@@ -1,0 +1,11 @@
+add_core = GKL
+controller = GKL
+owner = GKL
+base_tax = 5
+base_production = 2
+base_manpower = 6
+culture = zhongyuan
+religion = confucianism
+trade_goods = chinaware
+discovered_by = eastern
+discovered_by = western

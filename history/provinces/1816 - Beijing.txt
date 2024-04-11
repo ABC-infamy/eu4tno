@@ -1,0 +1,11 @@
+add_core = CQQ
+controller = CQQ
+owner = CQQ
+base_tax = 3
+base_production = 3
+base_manpower = 2
+culture = chihan
+religion = confucianism
+trade_goods = cloth
+discovered_by = eastern
+discovered_by = western

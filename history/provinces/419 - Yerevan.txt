@@ -1,0 +1,13 @@
+add_core = RKT
+controller = RKT
+owner = RKT
+base_tax = 4
+base_production = 4
+base_manpower = 3
+culture = turkish
+religion = sunni
+trade_goods = incense
+hre= no
+capital = Yerevan
+discovered_by = eastern
+discovered_by = western

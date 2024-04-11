@@ -1,0 +1,13 @@
+add_core = RKH
+controller = RKH
+owner = RKH
+base_tax = 5
+base_production = 4
+base_manpower = 5
+culture = hungarian
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Torontal
+discovered_by = eastern
+discovered_by = western

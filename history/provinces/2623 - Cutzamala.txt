@@ -1,0 +1,13 @@
+add_core = QIX
+controller = QIX
+owner = QIX
+base_tax = 2
+base_production = 4
+base_manpower = 2
+culture = castillian
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Cutzamala
+discovered_by = eastern
+discovered_by = western

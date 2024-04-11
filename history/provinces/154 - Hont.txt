@@ -1,0 +1,13 @@
+add_core = RKH
+controller = RKH
+owner = RKH
+base_tax = 3
+base_production = 2
+base_manpower = 3
+culture = slovak
+religion = catholic
+trade_goods = coal
+hre= no
+capital = Hont
+discovered_by = eastern
+discovered_by = western

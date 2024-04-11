@@ -1,0 +1,13 @@
+add_core = REI
+controller = REI
+owner = REI
+base_tax = 9
+base_production = 7
+base_manpower = 7
+culture = prussian
+religion = catholic
+trade_goods = copper
+hre= no
+capital = Nurnberg
+discovered_by = eastern
+discovered_by = western

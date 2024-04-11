@@ -1,0 +1,13 @@
+add_core = CRM
+controller = CRM
+owner = CRM
+base_tax = 4
+base_production = 3
+base_manpower = 3
+culture = kazani
+religion = sunni
+trade_goods = salt
+hre= no
+capital = Kaffa
+discovered_by = eastern
+discovered_by = western

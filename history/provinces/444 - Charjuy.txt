@@ -1,0 +1,11 @@
+add_core = TRM
+controller = TRM
+owner = TRM
+base_tax = 2
+base_production = 2
+base_manpower = 3
+culture = turkmeni
+religion = sunni
+trade_goods = cotton
+discovered_by = eastern
+discovered_by = western

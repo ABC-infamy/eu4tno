@@ -1,0 +1,13 @@
+add_core = BSS
+controller = BSS
+owner = BSS
+base_tax = 4
+base_production = 3
+base_manpower = 11
+culture = cosmopolitan_french
+religion = catholic
+trade_goods = coal
+hre= no
+capital = Chartres
+discovered_by = eastern
+discovered_by = western

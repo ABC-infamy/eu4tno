@@ -1,0 +1,11 @@
+add_core = HJN
+controller = HJN
+owner = HJN
+base_tax = 4
+base_production = 1
+base_manpower = 2
+culture = rajput
+religion = hinduism
+trade_goods = cloth
+discovered_by = eastern
+discovered_by = western

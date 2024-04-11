@@ -1,0 +1,11 @@
+add_core = NTZ
+controller = NTZ
+owner = NTZ
+base_tax = 6
+base_production = 7
+base_manpower = 6
+culture = prussian
+religion = catholic
+trade_goods = grain
+discovered_by = eastern
+discovered_by = western

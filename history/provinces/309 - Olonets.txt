@@ -1,0 +1,11 @@
+add_core = ONE
+controller = ONE
+owner = ONE
+base_tax = 1
+base_production = 1
+base_manpower = 1
+culture = russian
+religion = orthodox
+trade_goods = fish
+discovered_by = eastern
+discovered_by = western

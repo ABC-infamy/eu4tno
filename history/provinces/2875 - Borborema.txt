@@ -1,0 +1,11 @@
+add_core = ARR
+controller = ARR
+owner = ARR
+base_tax = 3
+base_production = 4
+base_manpower = 3
+culture = castillian
+religion = catholic
+trade_goods = naval_supplies
+discovered_by = eastern
+discovered_by = western

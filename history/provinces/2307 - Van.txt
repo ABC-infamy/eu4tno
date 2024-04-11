@@ -1,0 +1,13 @@
+add_core = RKT
+controller = RKT
+owner = RKT
+base_tax = 2
+base_production = 2
+base_manpower = 4
+culture = turkish
+religion = sunni
+trade_goods = livestock
+hre= no
+capital = Van
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,11 @@
+add_core = LYS
+controller = LYS
+owner = LYS
+base_tax = 3
+base_production = 1
+base_manpower = 3
+culture = russian
+religion = orthodox
+trade_goods = iron
+discovered_by = eastern
+discovered_by = western

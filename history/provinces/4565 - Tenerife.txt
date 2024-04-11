@@ -1,0 +1,13 @@
+add_core = IBQ
+controller = IBQ
+owner = IBQ
+base_tax = 3
+base_production = 4
+base_manpower = 4
+culture = castilian
+religion = catholic
+trade_goods = livestock
+hre= no
+capital = Tenerife
+discovered_by = eastern
+discovered_by = western

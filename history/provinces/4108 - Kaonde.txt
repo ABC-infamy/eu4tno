@@ -1,0 +1,13 @@
+add_core = RKE
+controller = RKE
+owner = RKE
+base_tax = 1
+base_production = 1
+base_manpower = 2
+culture = bemba
+religion = shamanism
+trade_goods = tropical_wood
+hre= no
+capital = Kaonde
+discovered_by = eastern
+discovered_by = western

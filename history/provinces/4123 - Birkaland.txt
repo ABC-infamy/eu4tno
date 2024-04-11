@@ -1,0 +1,13 @@
+add_core = FNL
+controller = FNL
+owner = FNL
+base_tax = 4
+base_production = 5
+base_manpower = 4
+culture = finnish
+religion = catholic
+trade_goods = fur
+hre= no
+capital = Birkaland
+discovered_by = eastern
+discovered_by = western

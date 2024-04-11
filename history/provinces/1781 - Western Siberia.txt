@@ -1,0 +1,4 @@
+#1781 - Western Siberia
+
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = GKL
+controller = GKL
+owner = GKL
+base_tax = 2
+base_production = 5
+base_manpower = 4
+culture = zhongyuan
+religion = confucianism
+trade_goods = silk
+hre= no
+capital = Kiungchow
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = TMQ
+controller = TMQ
+owner = TMQ
+base_tax = 1
+base_production = 2
+base_manpower = 3
+culture = mossi
+religion = sunni
+trade_goods = grain
+hre= no
+capital = Timbuktu
+discovered_by = eastern
+discovered_by = western

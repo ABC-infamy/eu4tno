@@ -1,0 +1,11 @@
+add_core = OST
+controller = OST
+owner = OST
+base_tax = 4
+base_production = 4
+base_manpower = 4
+culture = prussian
+religion = catholic
+trade_goods = paper
+discovered_by = eastern
+discovered_by = western

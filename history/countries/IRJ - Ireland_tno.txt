@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+primary_culture = yakut
+religion = tengri
+technology_group = Nomadic
+capital = 1045 # Moskva
+fixed_capital = 1045 # Cannot move capital away from this province & no power cost to move to it

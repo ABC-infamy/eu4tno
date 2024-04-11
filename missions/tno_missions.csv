@@ -1,0 +1,11 @@
+wrf_our_situation,3,0,mission_have_manufactories,WRF,none
+wrf_saving_economy,1,1,mission_have_manufactories,WRF,wrf_our_situation
+wrf_reorganize_army,3,1,mission_cannons_firing,WRF,wrf_our_situation
+wrf_contact_warlords,5,1,mission_alliances,WRF,wrf_our_situation
+wrf_agricultural_problem,1,2,mission_rice_field,WRF,wrf_saving_economy
+wrf_increase_conscription,3,2,mission_cannons_firing,WRF,wrf_reorganize_army
+wrf_sabotage_finland,5,2,mission_cannons_firing,WRF,wrf_contact_warlords
+wrf_increasing_production,1,3,mission_high_income,WRF,wrf_agricultural_problem
+wrf_better_weapons,3,3,mission_cannons_firing,WRF,wrf_increase_conscription
+wrf_sabotage_muscovy,5,3,mission_cannons_firing,WRF,wrf_sabotage_finland
+wrf_regional_wars,3,4,mission_cannons_firing,WRF,wrf_better_weapons

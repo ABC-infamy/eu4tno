@@ -1,0 +1,13 @@
+add_core = IQQ
+controller = IQQ
+owner = IQQ
+base_tax = 4
+base_production = 3
+base_manpower = 4
+culture = persian
+religion = shiite
+trade_goods = grain
+hre= no
+capital = Western Makran
+discovered_by = eastern
+discovered_by = western

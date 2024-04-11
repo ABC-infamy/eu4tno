@@ -1,0 +1,13 @@
+add_core = CQQ
+controller = CQQ
+owner = CQQ
+base_tax = 3
+base_production = 4
+base_manpower = 3
+culture = chihan
+religion = confucianism
+trade_goods = copper
+hre= no
+capital = Qingzhou
+discovered_by = eastern
+discovered_by = western

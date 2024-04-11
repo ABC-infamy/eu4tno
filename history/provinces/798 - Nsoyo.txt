@@ -1,0 +1,11 @@
+add_core = RKE
+controller = RKE
+owner = RKE
+base_tax = 4
+base_production = 2
+base_manpower = 3
+culture = prussian
+religion = catholic
+trade_goods = coal
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = CQN
+controller = CQN
+owner = CQN
+base_tax = 1
+base_production = 3
+base_manpower = 3
+culture = english
+religion = catholic
+trade_goods = copper
+hre= no
+capital = Ontario
+discovered_by = eastern
+discovered_by = western

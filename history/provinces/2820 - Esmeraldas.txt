@@ -1,0 +1,13 @@
+add_core = EQQ
+controller = EQQ
+owner = EQQ
+base_tax = 2
+base_production = 3
+base_manpower = 1
+culture = castilian
+religion = catholic
+trade_goods = tropical_wood
+hre= no
+capital = Esmeraldas
+discovered_by = eastern
+discovered_by = western

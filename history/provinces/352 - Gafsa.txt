@@ -1,0 +1,11 @@
+add_core = RIQ
+controller = RIQ
+owner = RIQ
+base_tax = 2
+base_production = 3
+base_manpower = 3
+culture = tunisian
+religion = sunni
+trade_goods = salt
+discovered_by = eastern
+discovered_by = western

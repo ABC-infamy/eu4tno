@@ -1,0 +1,13 @@
+add_core = NPQ
+controller = NPQ
+owner = NPQ
+base_tax = 2
+base_production = 1
+base_manpower = 1
+culture = nepali
+religion = hinduism
+trade_goods = cotton
+hre= no
+capital = Morang
+discovered_by = eastern
+discovered_by = western

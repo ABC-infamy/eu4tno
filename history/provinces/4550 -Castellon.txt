@@ -1,0 +1,13 @@
+add_core = IBQ
+controller = IBQ
+owner = IBQ
+base_tax = 6
+base_production = 7
+base_manpower = 6
+culture = castilian
+religion = catholic
+trade_goods = livestock
+hre= no
+capital = castellon
+discovered_by = eastern
+discovered_by = western

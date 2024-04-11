@@ -1,0 +1,11 @@
+add_core = GRQ
+controller = GRQ
+owner = GRQ
+base_tax = 3
+base_production = 4
+base_manpower = 3
+culture = greek
+religion = orthodox
+trade_goods = grain
+discovered_by = eastern
+discovered_by = western

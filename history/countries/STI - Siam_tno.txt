@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+technology_group = chinese
+religion = sunni
+primary_culture = malayan
+capital = 600	# Pattani
+religious_school = shafii_school

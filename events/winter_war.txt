@@ -1,0 +1,110 @@
+namespace = tno_winter_war
+
+country_event = {
+    id = tno_winter_war.1
+    title = tno_winter_war.1.t
+    desc = tno_winter_war.1.d
+    picture = CITY_VIEW_eventPicture
+
+    trigger = {
+        tag = WRF
+        war_with = FNL
+        AND = {
+            1777 = {
+                controlled_by = WRF
+            }
+            1776 = {
+                controlled_by = WRF
+            }
+            313 = {
+                controlled_by = WRF
+            }
+            309 = {
+                controlled_by = WRF
+            }
+        }
+    }
+    mean_time_to_happen = {
+        days = 15
+    }
+
+    option = {
+        name = tno_winter_war.1.a
+        hidden_effect = {
+            white_peace = FNL
+            white_peace = ONE
+            1777 = {
+                cede_province = WRF
+            }
+            1776 = {
+                cede_province = WRF
+            }
+            313 = {
+                cede_province = WRF
+            }
+            309 = {
+                cede_province = WRF
+            }
+            every_country = {
+                country_event = { id = tno_winter_war.4 }
+            }
+        }
+    }
+}
+
+country_event = {
+    id = tno_winter_war.2
+    title = "War won"
+    desc = "The second winter war ended in the disastorous defeat of the finish army. All lands they acquired in the continuation war are lost. German support which was promiced did not come. Finland will face a very strong political crisis now. Whilist Russians celebrate their first victory over the forein foe, who was occupying part of thier lands."
+    picture = CITY_VIEW_eventPicture
+
+    trigger = {
+        tag = WRF
+        has_war_with = FNL
+        ai = yes
+    }
+
+    mean_time_to_happen = {
+        days = 15
+    }
+
+    option = {
+        name = tno_winter_war.2.a
+        hidden_effect = {
+            white_peace = FNL
+            white_peace = ONE
+            1777 = {
+                cede_province = WRF
+            }
+            1776 = {
+                cede_province = WRF
+            }
+            313 = {
+                cede_province = WRF
+            }
+            309 = {
+                cede_province = WRF
+            }
+            every_country = {
+                country_event = { id = tno_winter_war.4 }
+            }
+        }
+    }
+}
+
+country_event = {
+    id = tno_winter_war.4
+    title = tno_winter_war.4.t
+    desc = tno_winter_war.4.d
+
+    trigger = {
+    }
+    is_triggered_only = yes
+    mean_time_to_happen = {
+        days = 15
+    }
+
+    option = {
+        name = tno_winter_war.4.a
+    }
+}

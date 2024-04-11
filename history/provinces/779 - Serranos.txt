@@ -1,0 +1,13 @@
+add_core = ARR
+controller = ARR
+owner = ARR
+base_tax = 4
+base_production = 3
+base_manpower = 4
+culture = castilian
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Serranos
+discovered_by = eastern
+discovered_by = western

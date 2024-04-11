@@ -1,0 +1,48 @@
+tno_zeya_missions_1 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = ZZE
+		}
+	}
+	ai_region_unite_zze = {
+		icon = mission_cannons_firing
+		position = 1
+		required_missions = {  }
+		provinces_to_highlight = {  }
+		trigger = {
+			adm_tech = 8
+			dip_tech = 8
+            mil_tech = 8
+		}
+		effect = {
+			if = {
+				limit = {
+					ai = yes
+					NOT = {
+						OR = {
+							ai = no
+							tag = YAG
+							tag = SBL
+							tag = MDQ
+							tag = SFL
+							tag = MGD
+                            tag = YYK
+                            tag = CCT
+						}
+                	}
+				}
+				inherit = YAG
+                inherit = SBL
+                inherit = MDQ
+                inherit = SFL
+                inherit = MGD
+                inherit = YYK
+                inherit = CCT
+			}
+			country_event = { id = tno_zeya.1 }
+		}
+	}
+}

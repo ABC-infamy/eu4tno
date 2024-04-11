@@ -1,0 +1,11 @@
+add_core = KRS
+controller = KRS
+owner = KRS
+base_tax = 3
+base_production = 3
+base_manpower = 3
+culture = russian
+religion = orthodox
+trade_goods = coal
+discovered_by = eastern
+discovered_by = western

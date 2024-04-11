@@ -1,0 +1,7 @@
+government = republic
+government_rank = 1
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+capital = 1078 # Moskva
+fixed_capital = 1078 # Cannot move capital away from this province & no power cost to move to it

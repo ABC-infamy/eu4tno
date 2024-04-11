@@ -1,0 +1,11 @@
+add_core = ASQ
+controller = ASQ
+owner = ASQ
+base_tax = 8
+base_production = 6
+base_manpower = 6
+culture = english
+religion = catholic
+trade_goods = paper
+discovered_by = eastern
+discovered_by = western

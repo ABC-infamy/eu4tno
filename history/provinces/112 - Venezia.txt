@@ -1,0 +1,13 @@
+add_core = RIQ
+controller = RIQ
+owner = RIQ
+base_tax = 10
+base_production = 6
+base_manpower = 8
+culture = umbrian
+religion = catholic
+trade_goods = gems
+hre= no
+capital = Venezia
+discovered_by = eastern
+discovered_by = western

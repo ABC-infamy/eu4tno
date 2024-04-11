@@ -1,0 +1,13 @@
+add_core = WLQ
+controller = WLQ
+owner = WLQ
+base_tax = 8
+base_production = 7
+base_manpower = 7
+culture = welsh
+religion = catholic
+trade_goods = coal
+hre= no
+capital = Carmarthen
+discovered_by = eastern
+discovered_by = western

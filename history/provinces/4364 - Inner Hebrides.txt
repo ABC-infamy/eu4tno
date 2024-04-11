@@ -1,0 +1,13 @@
+add_core = SCQ
+controller = SCQ
+owner = SCQ
+base_tax = 7
+base_production = 6
+base_manpower = 6
+culture = highland_scottish
+religion = catholic
+trade_goods = paper
+hre= no
+capital = Inner Hebrides
+discovered_by = eastern
+discovered_by = western

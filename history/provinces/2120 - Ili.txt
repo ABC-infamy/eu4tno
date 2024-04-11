@@ -1,0 +1,11 @@
+add_core = XXI
+controller = XXI
+owner = XXI
+base_tax = 1
+base_production = 2
+base_manpower = 1
+culture = uyghur
+religion = sunni
+trade_goods = livestock
+discovered_by = eastern
+discovered_by = western

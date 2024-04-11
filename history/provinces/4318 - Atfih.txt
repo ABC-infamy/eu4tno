@@ -1,0 +1,11 @@
+add_core = EGQ
+controller = EGQ
+owner = EGQ
+base_tax = 3
+base_production = 4
+base_manpower = 3
+culture = 
+religion = sunni
+trade_goods = wool
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = CBZ
+controller = CBZ
+owner = CBZ
+base_tax = 2
+base_production = 1
+base_manpower = 2
+culture = castilian
+religion = catholic
+trade_goods = sugar
+hre= no
+capital = Escambrey
+discovered_by = eastern
+discovered_by = western

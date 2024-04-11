@@ -1,0 +1,13 @@
+add_core = RIQ
+controller = RIQ
+owner = RIQ
+base_tax = 6
+base_production = 7
+base_manpower = 8
+culture = umbrian
+religion = catholic
+trade_goods = copper
+hre= no
+capital = Costenza
+discovered_by = eastern
+discovered_by = western

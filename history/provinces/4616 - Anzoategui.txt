@@ -1,0 +1,13 @@
+add_core = VUU
+controller = VUU
+owner = VUU
+base_tax = 2
+base_production = 2
+base_manpower = 1
+culture = castilian
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Anzoategui
+discovered_by = eastern
+discovered_by = western

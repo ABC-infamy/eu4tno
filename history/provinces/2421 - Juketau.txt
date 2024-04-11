@@ -1,0 +1,11 @@
+add_core = ARY
+controller = ARY
+owner = ARY
+base_tax = 2
+base_production = 1
+base_manpower = 3
+culture = russian
+religion = orthodox
+trade_goods = slaves
+discovered_by = eastern
+discovered_by = western

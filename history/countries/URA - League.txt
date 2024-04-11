@@ -1,0 +1,7 @@
+government = monarchy #Good guys , priest led
+add_government_reform = principality
+government_rank = 1
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+capital = 2444 # Moskva

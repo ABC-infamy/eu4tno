@@ -1,0 +1,13 @@
+add_core = NTZ
+controller = NTZ
+owner = NTZ
+base_tax = 7
+base_production = 6
+base_manpower = 7
+culture = dutch
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Loon
+discovered_by = eastern
+discovered_by = western

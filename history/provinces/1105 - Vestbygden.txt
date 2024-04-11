@@ -1,0 +1,11 @@
+add_core = GQQ
+controller = GQQ
+owner = GQQ
+base_tax = 1
+base_production = 1
+base_manpower = 1
+culture = inuit
+religion = catholic
+trade_goods = fur
+discovered_by = eastern
+discovered_by = western

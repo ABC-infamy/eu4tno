@@ -1,0 +1,20 @@
+#2754 - La Mancha
+
+owner = IBQ		#Juan II of Castille
+controller = IBQ
+add_core = IBQ
+culture = castillian
+religion = catholic
+hre = no
+base_tax = 5
+base_production = 4
+trade_goods = gold
+base_manpower = 6
+capital = "Ciudad Real" 
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = western

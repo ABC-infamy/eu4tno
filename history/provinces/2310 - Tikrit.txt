@@ -1,0 +1,13 @@
+add_core = IRK
+controller = IRK
+owner = IRK
+base_tax = 3
+base_production = 2
+base_manpower = 3
+culture = al_iraqiya_arabic
+religion = sunni
+trade_goods = copper
+hre= no
+capital = Tikrit
+discovered_by = eastern
+discovered_by = western

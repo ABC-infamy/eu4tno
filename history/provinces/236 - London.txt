@@ -1,0 +1,11 @@
+add_core = UKQ
+controller = UKQ
+owner = UKQ
+base_tax = 15
+base_production = 15
+base_manpower = 12
+culture = english
+religion = catholic
+trade_goods = naval_supplies
+discovered_by = eastern
+discovered_by = western

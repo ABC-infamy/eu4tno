@@ -1,0 +1,13 @@
+add_core = UST
+controller = UST
+owner = UST
+base_tax = 4
+base_production = 3
+base_manpower = 3
+culture = croatian
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Sarajevo
+discovered_by = eastern
+discovered_by = western

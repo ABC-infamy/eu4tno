@@ -1,0 +1,11 @@
+add_core = MSK
+controller = MSK
+owner = MSK
+base_tax = 5
+base_production = 3
+base_manpower = 4
+culture = prussian
+religion = catholic
+trade_goods = paper
+discovered_by = eastern
+discovered_by = western

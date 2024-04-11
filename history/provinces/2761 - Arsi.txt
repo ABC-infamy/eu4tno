@@ -1,0 +1,13 @@
+add_core = EPQ
+controller = EPQ
+owner = EPQ
+base_tax = 3
+base_production = 3
+base_manpower = 3
+culture = amhara
+religion = catholic
+trade_goods = cotton
+hre= no
+capital = Arsi
+discovered_by = eastern
+discovered_by = western

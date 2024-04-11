@@ -1,0 +1,13 @@
+add_core = BSK
+controller = BSK
+owner = BSK
+base_tax = 2
+base_production = 2
+base_manpower = 1
+culture = bashkir
+religion = sunni
+trade_goods = wool
+hre= no
+capital = Buzuluk
+discovered_by = eastern
+discovered_by = western

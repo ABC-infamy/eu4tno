@@ -1,0 +1,11 @@
+add_core = BSS
+controller = BSS
+owner = BSS
+base_tax = 5
+base_production = 2
+base_manpower = 12
+culture = cosmopolitan_french
+religion = catholic
+trade_goods = salt
+discovered_by = eastern
+discovered_by = western

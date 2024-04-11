@@ -1,0 +1,13 @@
+add_core = REI
+controller = REI
+owner = REI
+base_tax = 6
+base_production = 7
+base_manpower = 8
+culture = prussian
+religion = catholic
+trade_goods = naval_supplies
+hre= no
+capital = Rugen
+discovered_by = eastern
+discovered_by = western

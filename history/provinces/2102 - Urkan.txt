@@ -1,0 +1,13 @@
+add_core = CCT
+controller = CCT
+owner = CCT
+base_tax = 3
+base_production = 1
+base_manpower = 2
+culture = russian
+religion = orthodox
+trade_goods = iron
+hre= no
+capital = Urkan
+discovered_by = eastern
+discovered_by = western

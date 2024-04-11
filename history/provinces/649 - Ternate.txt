@@ -1,0 +1,13 @@
+add_core = IJQ
+controller = IJQ
+owner = IJQ
+base_tax = 4
+base_production = 3
+base_manpower = 3
+culture = animism
+religion = sumatran
+trade_goods = dyes
+hre= no
+capital = Ternate
+discovered_by = eastern
+discovered_by = western

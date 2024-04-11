@@ -1,0 +1,13 @@
+add_core = UST
+controller = UST
+owner = UST
+base_tax = 3
+base_production = 4
+base_manpower = 3
+culture = croatian
+religion = catholic
+trade_goods = coal
+hre= no
+capital = Lika
+discovered_by = eastern
+discovered_by = western

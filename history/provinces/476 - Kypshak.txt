@@ -1,0 +1,13 @@
+add_core = KZX
+controller = KZX
+owner = KZX
+base_tax = 3
+base_production = 3
+base_manpower = 4
+culture = khazak
+religion = sunni
+trade_goods = livestock
+hre= no
+capital = Kypshak
+discovered_by = eastern
+discovered_by = western

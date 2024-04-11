@@ -1,0 +1,13 @@
+add_core = QQF
+controller = QQF
+owner = QQF
+base_tax = 3
+base_production = 3
+base_manpower = 5
+culture = prussian
+religion = catholic
+trade_goods = naval_supplies
+hre= no
+capital = Iboina
+discovered_by = eastern
+discovered_by = western

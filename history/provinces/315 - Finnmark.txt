@@ -1,0 +1,11 @@
+add_core = NVX
+controller = NVX
+owner = NVX
+base_tax = 5
+base_production = 4
+base_manpower = 5
+culture = norwegian
+religion = catholic
+trade_goods = copper
+discovered_by = eastern
+discovered_by = western

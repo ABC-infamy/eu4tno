@@ -1,0 +1,11 @@
+add_core = VLG
+controller = VLG
+owner = VLG
+base_tax = 2
+base_production = 2
+base_manpower = 1
+culture = russian
+religion = orthodox
+trade_goods = glass
+discovered_by = eastern
+discovered_by = western

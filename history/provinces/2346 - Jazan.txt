@@ -1,0 +1,11 @@
+add_core = ARQ
+controller = ARQ
+owner = ARQ
+base_tax = 2
+base_production = 3
+base_manpower = 2
+culture = hejazi_culture
+religion = sunni
+trade_goods = incense
+discovered_by = eastern
+discovered_by = western

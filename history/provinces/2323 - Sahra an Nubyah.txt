@@ -1,0 +1,13 @@
+add_core = EGQ
+controller = EGQ
+owner = EGQ
+base_tax = 1
+base_production = 3
+base_manpower = 1
+culture = 
+religion = sunni
+trade_goods = grain
+hre= no
+capital = Sahra an Nubyah
+discovered_by = eastern
+discovered_by = western

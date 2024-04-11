@@ -1,0 +1,13 @@
+add_core = OMS
+controller = OMS
+owner = OMS
+base_tax = 3
+base_production = 1
+base_manpower = 5
+culture = russian
+religion = orthodox
+trade_goods = iron
+hre= no
+capital = Tara
+discovered_by = eastern
+discovered_by = western

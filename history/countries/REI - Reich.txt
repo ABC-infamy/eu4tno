@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+primary_culture = prussian
+religion = catholic
+capital = 50
+
+1443.1.1 = {
+	monarch = {
+		name = "Adolf"
+		dynasty = "Hitler"
+		birth_date = 1383.1.1
+		dip = 4
+		adm = 4
+		mil = 6
+	}
+}

@@ -1,0 +1,11 @@
+add_core = RKE
+controller = RKE
+owner = RKE
+base_tax = 2
+base_production = 1
+base_manpower = 2
+culture = bemba
+religion = shamanism
+trade_goods = cotton
+discovered_by = eastern
+discovered_by = western

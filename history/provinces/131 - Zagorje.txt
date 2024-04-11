@@ -1,0 +1,11 @@
+add_core = UST
+controller = UST
+owner = UST
+base_tax = 4
+base_production = 3
+base_manpower = 2
+culture = croatian
+religion = catholic
+trade_goods = coal
+discovered_by = eastern
+discovered_by = western

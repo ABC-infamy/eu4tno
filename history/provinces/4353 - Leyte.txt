@@ -1,0 +1,11 @@
+add_core = PQX
+controller = PQX
+owner = PQX
+base_tax = 1
+base_production = 1
+base_manpower = 2
+culture = animism
+religion = filipino
+trade_goods = livestock
+discovered_by = eastern
+discovered_by = western

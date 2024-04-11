@@ -1,0 +1,46 @@
+country_event = {
+	id = tno_batov.1
+	title = "tno_batov.1.t"
+	desc = "tno_batov.1.d"
+	picture = CONQUEST_eventPicture
+	
+	trigger = {
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "tno_batov.1.a"
+		add_prestige = 25
+		hidden_effect = {
+			every_country = {
+				country_event = { id = tno_batov.2 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = tno_batov.2
+	title = "tno_batov.2.t"
+	desc = "tno_batov.2.d"
+	picture = CITY_VIEW_eventPicture
+	
+	trigger = {
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = "tno_batov.2.a"
+	}
+}
+

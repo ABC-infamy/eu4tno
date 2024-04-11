@@ -1,0 +1,11 @@
+add_core = ISJ
+controller = ISJ
+owner = ISJ
+base_tax = 1
+base_production = 1
+base_manpower = 1
+culture = norwegian
+religion = catholic
+trade_goods = fish
+discovered_by = eastern
+discovered_by = western

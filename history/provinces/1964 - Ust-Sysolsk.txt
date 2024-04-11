@@ -1,0 +1,13 @@
+add_core = WRF
+controller = WRF
+owner = WRF
+base_tax = 1
+base_production = 1
+base_manpower = 1
+culture = russian
+religion = orthodox
+trade_goods = coal
+hre= no
+capital = 
+discovered_by = eastern
+discovered_by = western

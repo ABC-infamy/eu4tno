@@ -1,0 +1,11 @@
+add_core = KZX
+controller = KZX
+owner = KZX
+base_tax = 1
+base_production = 1
+base_manpower = 1
+culture = khazak
+religion = sunni
+trade_goods = grain
+discovered_by = eastern
+discovered_by = western

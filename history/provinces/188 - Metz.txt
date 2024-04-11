@@ -1,0 +1,13 @@
+add_core = BSS
+controller = BSS
+owner = BSS
+base_tax = 7
+base_production = 7
+base_manpower = 9
+culture = prussian
+religion = catholic
+trade_goods = copper
+hre= no
+capital = Metz
+discovered_by = eastern
+discovered_by = western

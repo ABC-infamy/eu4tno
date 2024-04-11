@@ -1,0 +1,11 @@
+add_core = BSS
+controller = BSS
+owner = BSS
+base_tax = 9
+base_production = 9
+base_manpower = 6
+culture = prussian
+religion = cathlic
+trade_goods = dyes
+discovered_by = eastern
+discovered_by = western

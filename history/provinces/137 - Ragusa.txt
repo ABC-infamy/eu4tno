@@ -1,0 +1,13 @@
+add_core = UST
+controller = UST
+owner = UST
+base_tax = 2
+base_production = 3
+base_manpower = 4
+culture = croatian
+religion = catholic
+trade_goods = iron
+hre= no
+capital = Ragusa
+discovered_by = eastern
+discovered_by = western

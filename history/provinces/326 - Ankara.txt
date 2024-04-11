@@ -1,0 +1,11 @@
+add_core = RKT
+controller = RKT
+owner = RKT
+base_tax = 3
+base_production = 5
+base_manpower = 4
+culture = turkish
+religion = sunni
+trade_goods = grain
+discovered_by = eastern
+discovered_by = western

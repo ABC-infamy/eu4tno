@@ -1,0 +1,13 @@
+add_core = RKT
+controller = RKT
+owner = RKT
+base_tax = 4
+base_production = 3
+base_manpower = 2
+culture = turkish
+religion = sunni
+trade_goods = grain
+hre= no
+capital = Chios
+discovered_by = eastern
+discovered_by = western

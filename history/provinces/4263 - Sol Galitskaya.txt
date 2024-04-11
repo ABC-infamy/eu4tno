@@ -1,0 +1,11 @@
+add_core = KOM
+controller = KOM
+owner = KOM
+base_tax = 1
+base_production = 1
+base_manpower = 1
+culture = sapmi
+religion = orthodox
+trade_goods = fur
+discovered_by = eastern
+discovered_by = western

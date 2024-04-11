@@ -1,0 +1,13 @@
+add_core = CQL
+controller = CQL
+owner = CQL
+base_tax = 2
+base_production = 2
+base_manpower = 1
+culture = castilian
+religion = catholic
+trade_goods = livestock
+hre= no
+capital = Achaguas
+discovered_by = eastern
+discovered_by = western

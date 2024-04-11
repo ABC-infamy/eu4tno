@@ -1,0 +1,113 @@
+country_decisions = {
+	form_west_russia = {
+		major = yes
+		potential = {
+			tag = WRF
+			NOT = { has_country_flag = formed_west_russia }
+			OR = {
+				primary_culture = russian
+				primary_culture = novgorodian
+				primary_culture = ryazanian
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1955	
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 8
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 1955
+			owns_core_province = 308
+			owns_core_province = 314
+			owns_core_province = 4262
+			owns_core_province = 1755
+			owns_core_province = 1079
+			owns_core_province = 1077
+			owns_core_province = 1082
+			owns_core_province = 306
+			owns_core_province = 1081
+			owns_core_province = 475
+			owns_core_province = 2444
+			owns_core_province = 1962
+			owns_core_province = 305	
+		}
+		effect = {
+			complete_mission = celebrate_unification
+			swap_non_generic_missions = no
+			set_government_rank = 3
+			add_government_reform = tsardom
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = formed_west_russia
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	###formed_superregional_russia
+	form_west_russia = {
+		major = yes
+		potential = {
+			tag = WRF
+			NOT = { has_country_flag = formed_superregional_russia }
+			OR = {
+				primary_culture = russian
+				primary_culture = novgorodian
+				primary_culture = ryazanian
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1955	
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 12
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 1078
+			owns_core_province = 1075
+			owns_core_province = 1069
+			owns_core_province = 1072
+			owns_core_province = 4690
+			owns_core_province = 1076
+			owns_core_province = 1078
+			owns_core_province = 1080
+			owns_core_province = 2444
+			owns_core_province = 2441s
+		}
+		effect = {
+			complete_mission = celebrate_unification
+			swap_non_generic_missions = no
+			set_government_rank = 3
+			add_government_reform = tsardom
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = formed_superregional_russias
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

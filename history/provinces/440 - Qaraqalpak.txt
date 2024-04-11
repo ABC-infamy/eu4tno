@@ -1,0 +1,11 @@
+add_core = UZB
+controller = UZB
+owner = UZB
+base_tax = 1
+base_production = 1
+base_manpower = 1
+culture = uzbehk
+religion = sunni
+trade_goods = cotton
+discovered_by = eastern
+discovered_by = western

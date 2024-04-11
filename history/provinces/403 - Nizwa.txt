@@ -1,0 +1,13 @@
+add_core = OXX
+controller = OXX
+owner = OXX
+base_tax = 1
+base_production = 2
+base_manpower = 2
+culture = mahri_culture
+religion = sunni
+trade_goods = livestock
+hre= no
+capital = Nizwa
+discovered_by = eastern
+discovered_by = western

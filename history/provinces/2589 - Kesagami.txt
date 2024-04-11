@@ -1,0 +1,13 @@
+add_core = CQN
+controller = CQN
+owner = CQN
+base_tax = 2
+base_production = 2
+base_manpower = 3
+culture = english
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Kesagami
+discovered_by = eastern
+discovered_by = western

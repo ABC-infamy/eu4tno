@@ -1,0 +1,11 @@
+add_core = RKH
+controller = RKH
+owner = RKH
+base_tax = 2
+base_production = 3
+base_manpower = 3
+culture = hungarian
+religion = catholic
+trade_goods = livestock
+discovered_by = eastern
+discovered_by = western

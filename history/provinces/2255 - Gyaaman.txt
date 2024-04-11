@@ -1,0 +1,13 @@
+add_core = FRZ
+controller = FRZ
+owner = FRZ
+base_tax = 3
+base_production = 3
+base_manpower = 3
+culture = dyola
+religion = catholic
+trade_goods = coal
+hre= no
+capital = Gyaaman
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,5 @@
+government = monarchy
+primary_culture = danish
+religion = catholic
+technology_group = western
+capital = 12

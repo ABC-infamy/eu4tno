@@ -1,0 +1,11 @@
+add_core = NSB
+controller = NSB
+owner = NSB
+base_tax = 4
+base_production = 4
+base_manpower = 3
+culture = russian
+religion = orthodox
+trade_goods = coal
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,11 @@
+add_core = TOM
+controller = TOM
+owner = TOM
+base_tax = 2
+base_production = 3
+base_manpower = 3
+culture = russian
+religion = orthodox
+trade_goods = fur
+discovered_by = eastern
+discovered_by = western

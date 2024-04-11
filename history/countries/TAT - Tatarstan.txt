@@ -1,0 +1,6 @@
+government = monarchy
+primary_culture = kazani
+religion = sunni
+technology_group = muslim
+capital = 1082	# Kazan
+religious_school = hanafi_school

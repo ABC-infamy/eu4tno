@@ -1,0 +1,11 @@
+add_core = ARQ
+controller = ARQ
+owner = ARQ
+base_tax = 4
+base_production = 5
+base_manpower = 4
+culture = hejazi_culture
+religion = sunni
+trade_goods = copper
+discovered_by = eastern
+discovered_by = western

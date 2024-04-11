@@ -1,0 +1,13 @@
+add_core = RIQ
+controller = RIQ
+owner = RIQ
+base_tax = 8
+base_production = 7
+base_manpower = 11
+culture = umbrian
+religion = catholic
+trade_goods = copper
+hre= no
+capital = Albenga
+discovered_by = eastern
+discovered_by = western

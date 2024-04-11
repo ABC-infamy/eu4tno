@@ -1,0 +1,18 @@
+#216 - Salamanca
+
+owner = IBQ	#Juan II of Castille
+controller = IBQ
+add_core = IBQ
+culture = castilian
+religion = catholic
+hre = no
+base_tax = 5 
+base_production = 5
+trade_goods = livestock
+base_manpower = 5
+capital = Salamanca
+estate = estate_church #or Burghers
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = VIS
+controller = VIS
+owner = VIS
+base_tax = 10
+base_production = 8
+base_manpower = 10
+culture = cosmopolitan_french
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Bergerac
+discovered_by = eastern
+discovered_by = western

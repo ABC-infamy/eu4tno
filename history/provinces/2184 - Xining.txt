@@ -1,0 +1,13 @@
+add_core = JJC
+controller = JJC
+owner = JJC
+base_tax = 2
+base_production = 1
+base_manpower = 1
+culture = mongol
+religion = vajrayana
+trade_goods = cotton
+hre= no
+capital = Xining
+discovered_by = eastern
+discovered_by = western

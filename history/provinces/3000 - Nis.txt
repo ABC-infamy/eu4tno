@@ -1,0 +1,11 @@
+add_core = RKB
+controller = RKB
+owner = RKB
+base_tax = 3
+base_production = 4
+base_manpower = 4
+culture = serbian
+religion = orthodox
+trade_goods = grain
+discovered_by = eastern
+discovered_by = western

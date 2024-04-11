@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+primary_culture = prussian
+religion = catholic
+capital = 280	# Berlin
+
+
+1443.1.1 = {
+	monarch = {
+		name = "Erich"
+		dynasty = "Koch"
+		birth_date = 1410.1.1
+		dip = 5
+		adm = 2
+		mil = 2
+	}
+}

@@ -1,0 +1,11 @@
+add_core = QQF
+controller = QQF
+owner = QQF
+base_tax = 1
+base_production = 2
+base_manpower = 2
+culture = madagasque
+religion = shamanism
+trade_goods = cotton
+discovered_by = eastern
+discovered_by = western

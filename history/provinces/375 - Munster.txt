@@ -1,0 +1,13 @@
+add_core = IRJ
+controller = IRJ
+owner = IRJ
+base_tax = 4
+base_production = 3
+base_manpower = 3
+culture = irish
+religion = catholic
+trade_goods = paper
+hre= no
+capital = Munster
+discovered_by = eastern
+discovered_by = western

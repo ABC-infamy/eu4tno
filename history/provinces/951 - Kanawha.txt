@@ -1,0 +1,11 @@
+add_core = USS
+controller = USS
+owner = USS
+base_tax = 6
+base_production = 5
+base_manpower = 4
+culture = american
+religion = catholic
+trade_goods = iron
+discovered_by = eastern
+discovered_by = western

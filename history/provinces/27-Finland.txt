@@ -1,0 +1,13 @@
+add_core = FNL
+controller = FNL
+owner = FNL
+base_tax = 5
+base_production = 6
+base_manpower = 5
+culture = finnish
+religion = catholic
+trade_goods = naval_supplies
+hre= no
+capital = Finland
+discovered_by = eastern
+discovered_by = western

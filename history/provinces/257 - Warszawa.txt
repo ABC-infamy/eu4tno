@@ -1,0 +1,11 @@
+add_core = RKP
+controller = RKP
+owner = RKP
+base_tax = 5
+base_production = 5
+base_manpower = 5
+culture = polish
+religion = catholic
+trade_goods = glass
+discovered_by = eastern
+discovered_by = western

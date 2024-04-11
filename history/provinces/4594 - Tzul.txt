@@ -1,0 +1,13 @@
+add_core = QIX
+controller = QIX
+owner = QIX
+base_tax = 1
+base_production = 2
+base_manpower = 2
+culture = castillian
+religion = catholic
+trade_goods = sugar
+hre= no
+capital = Tzul
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = SFL
+controller = SFL
+owner = SFL
+base_tax = 2
+base_production = 1
+base_manpower = 1
+culture = kamchatkan
+religion = tengri_pagan_reformed
+trade_goods = fur
+hre= no
+capital = Kagyrgyn
+discovered_by = eastern
+discovered_by = western

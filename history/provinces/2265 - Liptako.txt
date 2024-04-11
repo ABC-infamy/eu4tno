@@ -1,0 +1,13 @@
+add_core = TMQ
+controller = TMQ
+owner = TMQ
+base_tax = 1
+base_production = 3
+base_manpower = 2
+culture = mossi
+religion = sunni
+trade_goods = incense
+hre= no
+capital = Liptako
+discovered_by = eastern
+discovered_by = western

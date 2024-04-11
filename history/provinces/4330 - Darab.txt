@@ -1,0 +1,13 @@
+add_core = IQQ
+controller = IQQ
+owner = IQQ
+base_tax = 4
+base_production = 4
+base_manpower = 3
+culture = persian
+religion = shiite
+trade_goods = iron
+hre= no
+capital = Darab
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = RKW
+controller = RKW
+owner = RKW
+base_tax = 2
+base_production = 1
+base_manpower = 2
+culture = kuba
+religion = shamanism
+trade_goods = grain
+hre= no
+capital = Buzinza
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,7 @@
+government = republic
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+unit_type = eastern
+capital = 2366 # Moskva
+government_rank = 3

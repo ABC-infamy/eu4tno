@@ -1,0 +1,13 @@
+add_core = RKE
+controller = RKE
+owner = RKE
+base_tax = 3
+base_production = 2
+base_manpower = 4
+culture = bemba
+religion = shamanism
+trade_goods = gold
+hre= no
+capital = Ishindi
+discovered_by = eastern
+discovered_by = western

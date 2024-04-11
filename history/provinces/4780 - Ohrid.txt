@@ -1,0 +1,13 @@
+add_core = RKB
+controller = RKB
+owner = RKB
+base_tax = 4
+base_production = 3
+base_manpower = 3
+culture = bulgarian
+religion = orthodox
+trade_goods = grain
+hre= no
+capital = Plovdiv
+discovered_by = eastern
+discovered_by = western

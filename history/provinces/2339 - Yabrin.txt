@@ -1,0 +1,13 @@
+add_core = ARQ
+controller = ARQ
+owner = ARQ
+base_tax = 2
+base_production = 3
+base_manpower = 4
+culture = hejazi_culture
+religion = sunni
+trade_goods = incense 
+hre= no
+capital = Yabrin
+discovered_by = eastern
+discovered_by = western

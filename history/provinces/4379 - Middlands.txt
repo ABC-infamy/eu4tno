@@ -1,0 +1,13 @@
+add_core = IRJ
+controller = IRJ
+owner = IRJ
+base_tax = 4
+base_production = 5
+base_manpower = 6
+culture = irish
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Middlands
+discovered_by = eastern
+discovered_by = western

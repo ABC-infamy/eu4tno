@@ -1,0 +1,13 @@
+add_core = YYN
+controller = YYN
+owner = YYN
+base_tax = 2
+base_production = 1
+base_manpower = 2
+culture = bai
+religion = buddhism
+trade_goods = copper
+hre= no
+capital = Yunnan
+discovered_by = eastern
+discovered_by = western

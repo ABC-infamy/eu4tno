@@ -1,0 +1,15 @@
+version="1.36.2"
+tags={
+	"Alternative History"
+	"Gameplay"
+	"Loading Screen"
+	"Military"
+	"National Ideas"
+	"Technologies"
+	"New Nations"
+	"Missions And Decisions"
+	"Graphics"
+	"Map"
+}
+name="EU4TNO"
+supported_version="1.36.2"

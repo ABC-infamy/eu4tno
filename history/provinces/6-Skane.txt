@@ -1,0 +1,14 @@
+add_core = SWX
+owner = SWX
+controller = SWX
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 7
+base_production = 6
+trade_goods = grain
+base_manpower = 8
+capital = "Skane"
+is_city = yes
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = RRZ
+controller = RRZ
+owner = RRZ
+base_tax = 3
+base_production = 1
+base_manpower = 3
+culture = portugese
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Sao Vicente
+discovered_by = eastern
+discovered_by = western

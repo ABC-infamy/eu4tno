@@ -1,0 +1,13 @@
+add_core = REI
+controller = REI
+owner = REI
+base_tax = 9
+base_production = 9
+base_manpower = 9
+culture = prussian
+religion = catholic
+trade_goods = iron
+hre= no
+capital = Stralsund
+discovered_by = eastern
+discovered_by = western

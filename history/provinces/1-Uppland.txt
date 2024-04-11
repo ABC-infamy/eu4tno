@@ -1,0 +1,14 @@
+add_core = SWX
+owner = SWX
+controller = SWX
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 10
+base_production = 10
+trade_goods = livestock
+base_manpower = 10
+capital = "Stockholm"
+is_city = yes
+discovered_by = eastern
+discovered_by = western

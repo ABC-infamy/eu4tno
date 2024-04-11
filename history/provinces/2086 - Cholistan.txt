@@ -1,0 +1,13 @@
+add_core = PAK
+controller = PAK
+owner = PAK
+base_tax = 2
+base_production = 3
+base_manpower = 2
+culture = panjabi
+religion = sunni
+trade_goods = wool
+hre= no
+capital = Cholistan
+discovered_by = eastern
+discovered_by = western

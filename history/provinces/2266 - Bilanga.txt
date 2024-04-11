@@ -1,0 +1,13 @@
+add_core = TMQ
+controller = TMQ
+owner = TMQ
+base_tax = 1
+base_production = 1
+base_manpower = 1
+culture = mossi
+religion = sunni
+trade_goods = wool
+hre= no
+capital = Bilanga
+discovered_by = eastern
+discovered_by = western

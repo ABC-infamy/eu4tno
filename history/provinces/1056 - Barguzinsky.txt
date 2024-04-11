@@ -1,0 +1,11 @@
+add_core = SBL
+controller = SBL
+owner = SBL
+base_tax = 1
+base_production = 2
+base_manpower = 1
+culture = buryat
+religion = orthodox
+trade_goods = grain
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,20 @@
+#2755 - Soria
+
+owner = IBQ
+controller = IBQ
+add_core = IBQ
+culture = castillian
+religion = catholic
+hre = no
+base_tax = 6
+base_production = 5
+trade_goods = wool 
+base_manpower = 5
+capital = "Soria"
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = WLQ
+controller = WLQ
+owner = WLQ
+base_tax = 8
+base_production = 8
+base_manpower = 6
+culture = welsh
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Glamorgan
+discovered_by = eastern
+discovered_by = western

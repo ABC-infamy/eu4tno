@@ -1,0 +1,13 @@
+add_core = XXI
+controller = XXI
+owner = XXI
+base_tax = 2
+base_production = 3
+base_manpower = 1
+culture = uyghur
+religion = sunni
+trade_goods = iron
+hre= no
+capital = Turpan
+discovered_by = eastern
+discovered_by = western

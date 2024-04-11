@@ -1,0 +1,11 @@
+add_core = MYY
+controller = MYY
+owner = MYY
+base_tax = 3
+base_production = 4
+base_manpower = 2
+culture = manchu
+religion = confucianism
+trade_goods = grain
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,11 @@
+add_core = KYZ
+controller = KYZ
+owner = KYZ
+base_tax = 2
+base_production = 3
+base_manpower = 2
+culture = kirgiz
+religion = sunni
+trade_goods = cotton
+discovered_by = eastern
+discovered_by = western

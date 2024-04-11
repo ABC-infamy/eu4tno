@@ -1,0 +1,13 @@
+add_core = URS
+controller = URS
+owner = URS
+base_tax = 3
+base_production = 2
+base_manpower = 3
+culture = russian
+religion = orthodox
+trade_goods = grain
+hre= no
+capital = Kurgan
+discovered_by = eastern
+discovered_by = western

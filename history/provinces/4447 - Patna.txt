@@ -1,0 +1,13 @@
+add_core = HJN
+controller = HJN
+owner = HJN
+base_tax = 2
+base_production = 3
+base_manpower = 2
+culture = rajput
+religion = hinduism
+trade_goods = grain
+hre= no
+capital = Patna
+discovered_by = eastern
+discovered_by = western

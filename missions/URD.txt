@@ -1,0 +1,48 @@
+tno_batov_missions_1 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = URD
+		}
+	}
+	ai_region_unite_urd = {
+		icon = mission_cannons_firing
+		position = 1
+		required_missions = {  }
+		provinces_to_highlight = {  }
+		trigger = {
+			adm_tech = 8
+			dip_tech = 8
+			mil_tech = 8
+		}
+		effect = {
+			if = {
+				limit = {
+					ai = yes
+					NOT = {
+						OR = {
+							ai = no
+							tag = OMS
+							tag = URS
+							tag = SSU
+							tag = LYS
+							tag = ZLT
+							tag = YUG
+							tag = FVS
+						}
+                	}
+				}
+				inherit = OMS
+				inherit = URS
+				inherit = SSU
+				inherit = LYS
+				inherit = ZLT
+				inherit = YUG
+				inherit = FVS
+			}
+			country_event = { id = tno_batov.1 }
+		}
+	}
+}

@@ -1,0 +1,4 @@
+#4132 - Lake Mweru
+
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = ottoman_government
+primary_culture = turkish
+religion = sunni
+technology_group = ottoman
+capital = 151 #Istambul
+add_army_professionalism = 0.1
+religious_school = hanafi_school

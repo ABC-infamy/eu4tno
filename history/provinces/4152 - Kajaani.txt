@@ -1,0 +1,13 @@
+add_core = FNL
+controller = FNL
+owner = FNL
+base_tax = 4
+base_production = 4
+base_manpower = 5
+culture = finnish
+religion = catholic
+trade_goods = naval_supplies
+hre= no
+capital = Kajaani
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,2134 @@
+tno_wrrf_missions_1 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	has_country_shield = yes  
+	wrf_our_situation = {
+		icon = mission_have_manufactories
+		position = 1
+		required_missions = { }
+		provinces_to_highlight = {  }
+		trigger = {
+		}
+		effect = {
+			add_country_modifier = {
+				name = wrrf_famine
+				duration = -1
+				desc = WRRF_famine_DESC_TOOLTIP
+    			hidden = no
+			}
+			country_event = { id = tno_wrf.1 }
+		}
+	}
+}
+tno_wrrf_missions_2 = {    
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_saving_economy = {
+		icon = mission_have_manufactories
+		position = 2
+		required_missions = { wrf_our_situation }
+		provinces_to_highlight = {  }
+		trigger = {
+			treasury = 100
+		}
+		effect = {
+			add_mercantilism = 2
+			country_event = { id = tno_wrf.2 }
+		}
+	}
+}
+tno_wrrf_missions_3 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_reorganize_army = {
+		icon = mission_cannons_firing
+		position = 2
+		required_missions = { wrf_our_situation }
+		provinces_to_highlight = {  }
+		trigger = {
+			manpower_percentage = 0.75
+			num_of_generals = 3
+		}
+		effect = {
+			add_mil_power = 50
+			country_event = { id = tno_wrf.3 }
+		}
+	}
+}
+tno_wrrf_missions_4 = {    
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_contact_warlords = {
+		icon = mission_alliances
+		position = 2
+		required_missions = { wrf_our_situation }
+		provinces_to_highlight = {  }
+		trigger = {
+			OR = {
+				VLG = {
+					has_opinion = {
+						who = ROOT
+						value = 50
+					}
+				}
+				VIA = {
+					has_opinion = {
+						who = ROOT
+						value = 50
+					}
+				}
+			}
+		}
+		effect = {
+			add_dip_power = 50
+			add_legitimacy = 10
+			country_event = { id = tno_wrf.4 }
+		}
+	}
+}
+tno_wrrf_missions_5 = {    
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_agricultural_problem = {
+		icon = mission_rice_field
+		position = 3
+		required_missions = { wrf_saving_economy }
+		provinces_to_highlight = {  }
+		trigger = {
+			AND = {
+				adm_tech = 5
+				dip_tech = 5
+				dip_power = 200
+			}
+		}
+		effect = {
+			dip_power = -200
+			country_event = { id = tno_wrf.5 }
+		}
+	}
+}
+tno_wrrf_missions_6 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_increase_conscription = {
+		icon = mission_cannons_firing
+		position = 3
+		required_missions = { wrf_reorganize_army }
+		provinces_to_highlight = {  }
+		trigger = {
+			mil_tech = 5
+			mil_power = 200
+		}
+		effect = {
+			mil_power = -200
+			add_manpower = 15000
+			1955 = {
+				add_building = barracks
+			}
+			4122 = {
+				add_building = barracks
+			}
+		}
+	}
+}
+tno_wrrf_missions_7 = {    
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_sabotage_finland = {
+		icon = mission_cannons_firing
+		slot = 3
+		required_missions = { wrf_contact_warlords }
+		provinces_to_highlight = {  }
+		trigger = {
+			has_spy_network_in = {
+				WHO = FNL
+				value = 25
+			}
+		}
+		effect = {
+			1777 = {
+				add_unrest = 3
+			}
+		}
+	}
+}
+tno_wrrf_missions_8 = {    
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_increasing_production = {
+		icon = mission_high_income
+		position = 4
+		required_missions = { wrf_agricultural_problem }
+		provinces_to_highlight = { 	}
+		trigger = {
+			grown_by_development = 10
+		}
+		effect = {
+			add_years_of_income = 1.5
+			add_prestige = 15
+			add_splendor = 5
+			define_advisor = {
+				type = treasurer
+				name = "John Smith"
+				skill = 3
+				culture = russian
+				religion = orthodox
+			}
+		}
+	}
+}
+tno_wrrf_missions_9 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_better_weapons = {
+		icon = mission_cannons_firing
+		position = 4
+		required_missions = { wrf_increase_conscription }
+		provinces_to_highlight = {  }
+		trigger = {
+			national_focus = MIL
+		}
+		effect = {
+			add_mil_tech = 1
+		}
+	}
+}
+tno_wrrf_missions_10 = {    
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_sabotage_muscovy = {
+		icon = mission_cannons_firing
+		position = 4
+		required_missions = { wrf_sabotage_finland }
+		provinces_to_highlight = {  }
+		trigger = {
+			has_spy_network_in = {
+				WHO = MSK
+				value = 75
+			}
+		}
+		effect = {
+			301 = {
+				spawn_rebels = {
+					size = 15000
+					type = peasant_rebels
+				}
+			}
+			4243 = {
+				spawn_rebels = {
+					size = 5000
+					type = peasant_rebels
+				}
+			}
+		}
+	}
+}
+tno_wrrf_missions_11 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_regional_wars = {
+		icon = mission_cannons_firing
+		position = 5
+		required_missions = { wrf_increasing_production wrf_better_weapons wrf_sabotage_muscovy}
+		provinces_to_highlight = {  }
+		trigger = {
+			army_size_percentage = 1
+			adm_tech = 8
+			dip_tech = 8
+			mil_tech = 8
+			manpower_percentage = 0.95
+			num_of_generals = 1
+		}
+		effect = {
+			if = {
+				limit = {
+					ai = yes
+					NOT = {
+						OR = {
+							ai = no
+							tag = URA
+							tag = ORE
+							tag = SAM
+							tag = BSK
+							tag = VLG
+							tag = KOM
+							tag = BER
+							tag = VIA
+							tag = ARY
+							tag = TAT
+							tag = GOR
+						}
+                	}
+				}
+				inherit = URA
+				inherit = ORE
+				inherit = SAM
+				inherit = BSK
+				inherit = VLG
+				inherit = KOM
+				inherit = BER
+				inherit = VIA
+				inherit = ARY
+				inherit = TAT
+				inherit = GOR
+			}
+			country_event = { id = tno_wrf.6 }
+		}
+	}
+}
+
+tno_wrrf_missions_12 = {    
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_crash_komi = {
+		icon = mission_high_income
+		position = 6
+		required_missions = { wrf_regional_wars }
+		provinces_to_highlight = { 	}
+		trigger = {
+		}
+		effect = {
+			declare_war = KOM
+		}
+	}
+}
+tno_wrrf_missions_13 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_crash_vologda = {
+		icon = mission_cannons_firing
+		position = 6
+		required_missions = { wrf_regional_wars }
+		provinces_to_highlight = {  }
+		trigger = {
+			
+		}
+		effect = {
+			declare_war = VLG
+		}
+	}
+}
+tno_wrrf_missions_14 = {    
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_march_urals = {
+		icon = mission_cannons_firing
+		position = 6
+		required_missions = { wrf_regional_wars }
+		provinces_to_highlight = {  }
+		trigger = {
+		}
+		effect = {
+			declare_war = BER
+		}
+	}
+}
+
+tno_wrrf_missions_15 = {    
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_defeat_collabs = {
+		icon = mission_high_income
+		position = 7
+		required_missions = { wrf_crash_komi }
+		provinces_to_highlight = { 	}
+		trigger = {
+		}
+		effect = {
+			declare_war = SAM
+			declare_war = BSK
+			declare_war = TAT
+		}
+	}
+}
+tno_wrrf_missions_16 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_wreck_monarchism = {
+		icon = mission_cannons_firing
+		position = 7
+		required_missions = { wrf_crash_vologda }
+		provinces_to_highlight = {  }
+		trigger = {
+			
+		}
+		effect = {
+			declare_war = VIA
+			declare_war = ARY
+			declare_war = GOR
+		}
+	}
+}
+tno_wrrf_missions_17 = {    
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_march_south = {
+		icon = mission_cannons_firing
+		position = 7
+		required_missions = { wrf_march_urals }
+		provinces_to_highlight = {  }
+		trigger = {
+		}
+		effect = {
+			declare_war = ORE
+			declare_war = URA
+		}
+	}
+}
+
+tno_wrrf_missions_18 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_celebrate_unification = {
+		icon = mission_cannons_firing
+		position = 8
+		required_missions = { wrf_wreck_monarchism wrf_march_south wrf_defeat_collabs }
+		provinces_to_highlight = {  }
+		trigger = {
+			has_country_flag = formed_west_russia
+		}
+		effect = {
+			country_event = { id = tno_wrf.7 }
+			add_legitimacy = 15
+			add_prestige = 15
+			change_government_reform_progress = 100
+			add_dip_power = 50
+		}
+	}
+}
+
+####LOL111
+
+tno_wrrf_missions_19 = {    
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_prepare_integration = {
+		icon = mission_high_income
+		position = 9
+		required_missions = { wrf_celebrate_unification }
+		provinces_to_highlight = { 	}
+		trigger = {
+			num_of_rebel_armies = 0
+			num_of_loans = 0
+		}
+		effect = {
+			add_stability = 2
+			add_war_exhaustion = -5
+		}
+	}
+}
+tno_wrrf_missions_20 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_conscript_new_lands = {
+		icon = mission_cannons_firing
+		position = 9
+		required_missions = { wrf_celebrate_unification }
+		provinces_to_highlight = {  }
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			1082 = {
+				add_base_manpower = 2
+			}
+			1083 = {
+				add_base_manpower = 1
+			}
+			1077 = {
+				add_base_manpower = 1
+			}
+			473 = {
+				add_base_manpower = 2
+			}
+			random_owned_province = {
+				add_base_manpower = 2
+			}
+			random_owned_province = {
+				add_base_manpower = 1
+			}
+			random_owned_province = {
+				add_building = barracks
+			}
+			random_owned_province = {
+				add_building = barracks
+			}
+			random_owned_province = {
+				add_building = barracks
+			}
+			random_owned_province = {
+				add_building = barracks
+			}
+		}
+	}
+}
+tno_wrrf_missions_21 = {    
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_power_question = {
+		icon = mission_cannons_firing
+		position = 9
+		required_missions = { wrf_celebrate_unification }
+		provinces_to_highlight = {  }
+		trigger = {
+		}
+		effect = {
+			if = {
+				limit = {
+					power_struggle = 6
+				}
+				kill_ruler = yes
+				define_ruler = {
+					name = "Konstantin"
+					dynasty = "Rokosovky"
+					adm = 5
+					dip = 4
+					mil = 6
+					age = 20
+					claim = 95
+				}
+			}
+		}
+	}
+}
+
+tno_wrrf_missions_22 = {    
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_develop_bureucracy = {
+		icon = mission_high_income
+		position = 9
+		required_missions = { wrf_prepare_integration }
+		provinces_to_highlight = { 	}
+		trigger = {
+			1955 = {
+				has_building = courthouse
+			}
+			1083 = {
+				has_building = courthouse
+			}
+			306 = {
+				has_building = courthouse
+			}
+			305 = {
+				has_building = courthouse
+			}
+			2420 = {
+				has_building = courthouse
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = wrrf_efficient_bureaucracy
+				duration = -1
+				desc = WRRF_famine_DESC_TOOLTIP
+    			hidden = no
+			}
+		}
+	}
+}
+tno_wrrf_missions_23 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_army_profesionalism = {
+		icon = mission_cannons_firing
+		position = 9
+		required_missions = { wrf_conscript_new_lands }
+		provinces_to_highlight = {  }
+		trigger = {
+			army_tradition = 25
+		}
+		effect = {
+			add_country_modifier = {
+				name = wrrf_profesional_army
+				duration = -1
+				desc = wrrf_profesional_army_DESC_TOOLTIP
+    			hidden = no
+			}
+		}
+	}
+}
+tno_wrrf_missions_24 = {    
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_second_winter_war = {
+		icon = mission_cannons_firing
+		position = 9
+		required_missions = { wrf_power_question }
+		provinces_to_highlight = {  }
+		trigger = {
+		}
+		effect = {
+			declare_war = FNL
+			declare_war = ONE
+		}
+	}
+}
+
+###
+
+tno_wrrf_missions_25 = {    
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_caring_for_people = {
+		icon = mission_high_income
+		position = 10
+		required_missions = { wrf_develop_bureucracy }
+		provinces_to_highlight = { 	}
+		trigger = {
+			1955 = {
+				has_building = temple
+			}
+			1083 = {
+				has_building = marketplace
+			}
+			306 = {
+				has_building = workshop
+			}
+			grown_by_development = 20
+		}
+		effect = {
+			add_legitimacy = 25
+			add_adm_power = 50
+			add_mercantilism = 5
+		}
+	}
+}
+tno_wrrf_missions_26 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_new_mils = {
+		icon = mission_cannons_firing
+		position = 10
+		required_missions = { wrf_army_profesionalism }
+		provinces_to_highlight = {  }
+		trigger = {
+			mil_power = 500
+		}
+		effect = {
+			add_mil_power = -500
+			add_power_projection = { 
+				type = 25_permanent_power_projection
+				amount = 25 
+			}
+		}
+	}
+}
+tno_wrrf_missions_27 = {    
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_diplo_kaz = {
+		icon = mission_cannons_firing
+		position = 10
+		required_missions = { wrf_second_winter_wars }
+		provinces_to_highlight = {  }
+		trigger = {
+			KZX = {
+				has_opinion = {
+					who = ROOT
+					value = 50
+				}
+			}
+		}
+		effect = {
+			add_opinion = {
+				who = KZX
+				modifier = historical_friend
+			}
+			change_dip = 1
+		}
+	}
+}
+
+###
+###
+
+tno_wrrf_missions_28 = {    
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_defeat_insurgents = {
+		icon = mission_high_income
+		position = 11
+		required_missions = { wrf_caring_for_people }
+		provinces_to_highlight = { 	}
+		trigger = {
+			mil_tech = 10
+		}
+		effect = {
+			random_owned_province = {
+				spawn_rebels = {
+					type = noble_rebels
+					size = 10
+				}
+			}
+			random_owned_province = {
+				spawn_rebels = {
+					type = noble_rebels
+					size = 15
+				}
+			}
+		}
+	}
+}
+tno_wrrf_missions_29 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_observe_and_learn = {
+		icon = mission_cannons_firing
+		position = 11
+		required_missions = { wrf_new_mils }
+		provinces_to_highlight = {  }
+		trigger = {
+			artillery_fraction = 0.3
+		}
+		effect = {
+			1955 = {
+				add_building = fort_17th
+			}
+		}
+	}
+}
+tno_wrrf_missions_30 = {    
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_send_emmisaires = {
+		icon = mission_cannons_firing
+		position = 11
+		required_missions = { wrf_diplo_kaz }
+		provinces_to_highlight = {  }
+		trigger = {
+			AND = {
+				has_spy_network_in = {
+					WHO = REI
+					value = 25
+				}
+				has_spy_network_in = {
+					WHO = MSK
+					value = 25
+				}
+			}
+		}
+		effect = {
+			add_opinion = {
+				who = REI
+				modifier = insulted
+			}
+		}
+	}
+}
+
+###
+
+tno_wrrf_missions_31 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_great_ural_war = {
+		icon = mission_cannons_firing
+		position = 12
+		required_missions = { wrf_defeat_insurgents wrf_observe_and_learn wrf_send_emmisaires }
+		provinces_to_highlight = {  }
+		trigger = {
+			adm_tech = 12
+			adm_tech = 12
+			adm_tech = 12
+		}
+		effect = {
+			if = {
+				limit = {
+					ai = yes
+					NOT = {
+						OR = {
+							is_ai = no
+							tag = URD
+						}
+                	}
+				}
+				inherit = URD
+			}
+			else = {
+				declare_war = URD
+			}
+		}
+	}
+}
+
+tno_wrrf_missions_32 = {    
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_bonus_1 = {
+		icon = mission_cannons_firing
+		position = 14
+		required_missions = { wrf_great_ural_war }
+		provinces_to_highlight = {  }
+		trigger = {
+			OR = {
+				ai = yes
+				is_at_war = yes
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = bonus_1
+				duration = 100
+				desc = WRRF_famine_DESC_TOOLTIP
+    			hidden = no
+			}
+		}
+	}
+}
+
+tno_wrrf_missions_33 = {    
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_bonus_2 = {
+		icon = mission_cannons_firing
+		position = 14
+		required_missions = { wrf_great_ural_war }
+		provinces_to_highlight = {  }
+		trigger = {
+			OR = {
+				ai = yes
+				is_at_war = yes
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = bonus_2
+				duration = 100
+				desc = WRRF_famine_DESC_TOOLTIP
+    			hidden = no
+			}
+		}
+	}
+}
+
+tno_wrrf_missions_34 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	superregional_unification = {
+		icon = mission_cannons_firing
+		position = 15
+		required_missions = { wrf_bonus_1 wrf_bonus_2 }
+		provinces_to_highlight = {  }
+		trigger = {
+			has_country_flag = formed_superregional_russia
+		}
+		effect = {
+			add_prestige = 50
+			add_splendor = 20
+			country_event = { id = tno_wrf.8 }
+		}
+	}
+}
+
+###
+tno_wrrf_missions_35 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	integrate_urals = {
+		icon = mission_cannons_firing
+		position = 16
+		required_missions = { superregional_unification }
+		provinces_to_highlight = {  }
+		trigger = {
+			num_of_rebel_armies = 0
+		}
+		effect = {
+
+		}	
+	}
+}
+tno_wrrf_missions_36 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	build_new_mils = {
+		icon = mission_cannons_firing
+		position = 16
+		required_missions = { superregional_unification }
+		provinces_to_highlight = {  }
+		trigger = {
+			treasury = 500
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_37 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	gather_data = {
+		icon = mission_cannons_firing
+		position = 16
+		required_missions = { superregional_unification }
+		provinces_to_highlight = {  }
+		trigger = {
+			AND = {
+				has_spy_network_in = {
+					WHO = REI
+					value = 50
+				}
+				has_spy_network_in = {
+					WHO = MSK
+					value = 50
+				}
+			}
+		}
+		effect = {
+			
+		}
+	}
+}
+###
+tno_wrrf_missions_38 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	raise_patriotism = {
+		icon = mission_cannons_firing
+		position = 17
+		required_missions = { integrate_urals }
+		provinces_to_highlight = {  }
+		trigger = {
+			stability = 3
+			legitimacy = 75
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_39 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	invest_in_technology = {
+		icon = mission_cannons_firing
+		position = 17
+		required_missions = { build_new_mils }
+		provinces_to_highlight = {  }
+		trigger = {
+			treasury = 500
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_40 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	create_spy_agensy = {
+		icon = mission_cannons_firing
+		position = 17
+		required_missions = { gather_data }
+		provinces_to_highlight = {  }
+		trigger = {
+			treasury = 250
+			num_of_generals = 3
+		}
+		effect = {
+			
+		}
+	}
+}
+###
+tno_wrrf_missions_41 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	start_civilian_construction = {
+		icon = mission_cannons_firing
+		position = 18
+		required_missions = { raise_patriotism }
+		provinces_to_highlight = {  }
+		trigger = {
+			1955 = {
+				is_prosperous = yes
+			}
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_42 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	open_officer_academies = {
+		icon = mission_cannons_firing
+		position = 18
+		required_missions = { invest_in_technology }
+		provinces_to_highlight = {  }
+		trigger = {
+			num_of_generals = 3
+			num_of_admirals = 3
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_43 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	prepare_for_wourld_stage = {
+		icon = mission_cannons_firing
+		position = 18
+		required_missions = { create_spy_agensy }
+		provinces_to_highlight = {  }
+		trigger = {
+			num_of_diplomats = 3
+		}
+		effect = {
+			
+		}
+	}
+}
+
+###
+
+tno_wrrf_missions_44 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	unification_war = {
+		icon = mission_cannons_firing
+		position = 19
+		required_missions = { start_civilian_construction open_officer_academies prepare_for_wourld_stage }
+		trigger = {
+			adm_tech = 12
+			dip_tech = 12
+			mil_tech = 12
+		}
+		effect = {
+				limit = {
+					ai = yes
+					NOT = {
+						OR = {
+							ai = no
+							tag = TOM
+						}
+                	}
+				}
+				inherit = TOM
+				declare_war = TOM
+		}
+	}
+}
+tno_wrrf_missions_45 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	bonus_3 = {
+		icon = mission_cannons_firing
+		position = 20
+		required_missions = { unification_war }
+		trigger = {
+
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_46 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	bonus_4 = {
+		icon = mission_cannons_firing
+		position = 20
+		required_missions = { unification_war }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_47 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_russia_unified = {
+		icon = mission_cannons_firing
+		position = 21
+		required_missions = { bonus_3 bonus_4 }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+
+##
+tno_wrrf_missions_48 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_integrate_the_lands = {
+		icon = mission_cannons_firing
+		position = 22
+		required_missions = { wrf_russia_unified }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_49 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_create_reserves = {
+		icon = mission_cannons_firing
+		position = 22
+		required_missions = { wrf_russia_unified }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}	
+}
+tno_wrrf_missions_50 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_central_asia_expedition = {
+		icon = mission_cannons_firing
+		position = 22
+		required_missions = { wrf_russia_unified }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}		
+}
+##
+tno_wrrf_missions_51 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_develop_infrastrucutre = {
+		icon = mission_cannons_firing
+		position = 23
+		required_missions = { wrf_integrate_the_lands }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_52 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_erect_defenses = {
+		icon = mission_cannons_firing
+		position = 23
+		required_missions = { wrf_create_reserves }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}	
+}
+tno_wrrf_missions_53 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_manchu_border_conflict = {
+		icon = mission_cannons_firing
+		position = 23
+		required_missions = { wrf_central_asia_expedition }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}	
+}
+##
+tno_wrrf_missions_54 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_prepare_last_war = {
+		icon = mission_cannons_firing
+		position = 24
+		required_missions = { wrf_develop_infrastrucutre }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}	
+}
+tno_wrrf_missions_55 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_hire_instructors = {
+		icon = mission_cannons_firing
+		position = 24
+		required_missions = { wrf_erect_defenses }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}	
+}
+tno_wrrf_missions_56 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_enter_wourld_stage = {
+		icon = mission_cannons_firing
+		position = 24
+		required_missions = { wrf_manchu_border_conflict }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}	
+}
+## FINAL WAR
+tno_wrrf_missions_57 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_final_war = {
+		icon = mission_cannons_firing
+		position = 25
+		required_missions = { wrf_prepare_last_war wrf_hire_instructors wrf_enter_wourld_stage }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}	
+}
+## FINAL WAR
+tno_wrrf_missions_58 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_dev_conversion = {
+		icon = mission_cannons_firing
+		position = 26
+		required_missions = { wrf_final_war }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}	
+}
+tno_wrrf_missions_59 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_tech_cost = {
+		icon = mission_cannons_firing
+		position = 26
+		required_missions = { wrf_final_war }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}	
+}
+tno_wrrf_missions_60 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_forein_aid = {
+		icon = mission_cannons_firing
+		position = 26
+		required_missions = { wrf_final_war }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}	
+}
+##
+tno_wrrf_missions_61 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_rush_mil_dev = {
+		icon = mission_cannons_firing
+		position = 27
+		required_missions = { wrf_dev_conversion }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}	
+}
+tno_wrrf_missions_62 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_scrap_the_barrel = {
+		icon = mission_cannons_firing
+		position = 27
+		required_missions = { wrf_tech_cost }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_63 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_acquire_uranium = {
+		icon = mission_cannons_firing
+		position = 27
+		required_missions = { wrf_forein_aid }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+##
+tno_wrrf_missions_64 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_invest_into_partisants = {
+		icon = mission_cannons_firing
+		position = 28
+		required_missions = { wrf_rush_mil_dev }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_65 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_desperate_measures = {
+		icon = mission_cannons_firing
+		position = 28
+		required_missions = { wrf_scrap_the_barrel }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_66 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_acquire_nuke_techno = {
+		icon = mission_cannons_firing
+		position = 28
+		required_missions = { wrf_acquire_uraniun }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}	
+}
+###
+tno_wrrf_missions_67 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_all_for_the_bomb = {
+		icon = mission_cannons_firing
+		position = 29
+		required_missions = { wrf_invest_into_partisants wrf_desperate_measures }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_68 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_nuclear_test_site = {
+		icon = mission_cannons_firing
+		position = 29
+		required_missions = { wrf_desperate_measures wrf_acquire_nuke_techno }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_69 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_hyper_mob = {
+		icon = mission_cannons_firing
+		position = 30
+		required_missions = { wrf_all_for_the_bomb }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_70 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_nuclear_test = {
+		icon = mission_cannons_firing
+		position = 30
+		required_missions = { wrf_nuclear_test_site }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+#
+tno_wrrf_missions_71 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_nuclear_diplomacy = {
+		icon = mission_cannons_firing
+		position = 31
+		required_missions = { wrf_hyper_mob wrf_nuclear_test }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}	
+}
+tno_wrrf_missions_72 = { #Victory over gemany
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_grand_victory_over_germany = {
+		icon = mission_cannons_firing
+		position = 32
+		required_missions = { wrf_nuclear_diplomacy }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}	
+}
+tno_wrrf_missions_73 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_reorganize_peacetime = {
+		icon = mission_cannons_firing
+		position = 33
+		required_missions = { wrf_grand_victory_over_germany }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_74 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_defeat_werewolf = {
+		icon = mission_cannons_firing
+		position = 33
+		required_missions = { wrf_grand_victory_over_germany }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+###
+tno_wrrf_missions_75 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_post_war_recovery = {
+		icon = mission_cannons_firing
+		position = 34
+		required_missions = { wrf_reorganize_peacetime }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_76 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_demobilize = {
+		icon = mission_cannons_firing
+		position = 34
+		required_missions = { wrf_reorganize_peacetime wrf_defeat_werewolf }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_77 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_german_question = {
+		icon = mission_cannons_firing
+		position = 34
+		required_missions = { wrf_defeat_werewolf }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+##
+tno_wrrf_missions_78 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_great_construction = {
+		icon = mission_cannons_firing
+		position = 35
+		required_missions = { wrf_post_war_recovery }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_79 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_nuclear_detente = {
+		icon = mission_cannons_firing
+		position = 35
+		required_missions = { wrf_demobilize }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_80 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_1936_borders = {
+		icon = mission_cannons_firing
+		position = 35
+		required_missions = { wrf_german_question }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+##
+tno_wrrf_missions_81 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_dreams_of_space = {
+		icon = mission_cannons_firing
+		position = 36
+		required_missions = { wrf_great_construction }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_82 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_memories_vision = {
+		icon = mission_cannons_firing
+		position = 36
+		required_missions = { wrf_nuclear_detente }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+tno_wrrf_missions_83 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_ofn_deal = {
+		icon = mission_cannons_firing
+		position = 36
+		required_missions = { wrf_1936_borders }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}	
+}
+
+###GAME OVER
+tno_wrrf_missions_84 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = WRF
+		}
+	}
+	wrf_ofn_deal = {
+		icon = mission_cannons_firing
+		position = 37
+		required_missions = { wrf_dreams_of_space wrf_memories_vision wrf_ofn_deal }
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
+###GAME OVER

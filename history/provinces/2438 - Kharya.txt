@@ -1,0 +1,11 @@
+add_core = YYK
+controller = YYK
+owner = YYK
+base_tax = 1
+base_production = 2
+base_manpower = 2
+culture = yakut
+religion = tengri_pagan_reformed
+trade_goods = fish
+discovered_by = eastern
+discovered_by = western

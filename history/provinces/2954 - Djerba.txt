@@ -1,0 +1,13 @@
+add_core = RIQ
+controller = RIQ
+owner = RIQ
+base_tax = 4
+base_production = 5
+base_manpower = 3
+culture = umbrian
+religion = catholic
+trade_goods = naval_supplies
+hre= no
+capital = Djerba
+discovered_by = eastern
+discovered_by = western

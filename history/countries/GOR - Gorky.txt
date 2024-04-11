@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = tsardom
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+unit_type = eastern
+capital = 306
+government_rank = 3
+
+1443.1.1 = {
+	monarch = {
+		name = "Ivan"
+		dynasty = "Chernyakovsky"
+		birth_date = 1410.1.1
+		dip = 3
+		adm = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,13 @@
+add_core = NTZ
+controller = NTZ
+owner = NTZ
+base_tax = 7
+base_production = 8
+base_manpower = 7
+culture = dutch
+religion = catholic
+trade_goods = fish
+hre= no
+capital = Oversticht
+discovered_by = eastern
+discovered_by = western

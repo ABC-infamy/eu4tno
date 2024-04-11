@@ -1,0 +1,11 @@
+add_core = IBQ
+controller = IBQ
+owner = IBQ
+base_tax = 10
+base_production = 10
+base_manpower = 10
+culture = castilian
+religion = catholic
+trade_goods = grain
+discovered_by = eastern
+discovered_by = western

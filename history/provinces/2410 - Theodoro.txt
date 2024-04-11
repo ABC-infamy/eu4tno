@@ -1,0 +1,11 @@
+add_core = CRM
+controller = CRM
+owner = CRM
+base_tax = 12
+base_production = 12
+base_manpower = 8
+culture = prussian
+religion = catholic
+trade_goods = naval_supplies
+discovered_by = eastern
+discovered_by = western

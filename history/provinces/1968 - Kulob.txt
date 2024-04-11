@@ -1,0 +1,13 @@
+add_core = TAJ
+controller = TAJ
+owner = TAJ
+base_tax = 2
+base_production = 2
+base_manpower = 1
+culture = uzbehk
+religion = sunni
+trade_goods = livestock
+hre= no
+capital = Kulob
+discovered_by = eastern
+discovered_by = western

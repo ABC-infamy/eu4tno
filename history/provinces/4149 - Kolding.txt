@@ -1,0 +1,13 @@
+add_core = DNX
+controller = DNX
+owner = DNX
+base_tax = 9
+base_production = 8
+base_manpower = 7
+culture = danish
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Kolding
+discovered_by = eastern
+discovered_by = western

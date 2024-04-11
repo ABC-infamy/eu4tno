@@ -1,0 +1,13 @@
+add_core = ZLT
+controller = ZLT
+owner = ZLT
+base_tax = 3
+base_production = 3
+base_manpower = 4
+culture = russian
+religion = orthodox
+trade_goods = coal
+hre= no
+capital = Middle Urals
+discovered_by = eastern
+discovered_by = western

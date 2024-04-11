@@ -1,0 +1,17 @@
+government = republic
+government_rank = 1
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+capital = 1064
+fixed_capital = 1064
+
+1443.1.1 = {
+	monarch = {
+		name = "Pasternak"
+		birth_date = 1410.1.1
+		dip = 5
+		adm = 2
+		mil = 2
+	}
+}

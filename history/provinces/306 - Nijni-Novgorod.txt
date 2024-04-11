@@ -1,0 +1,13 @@
+add_core = GOR
+controller = GOR
+owner = GOR
+base_tax = 2
+base_production = 1
+base_manpower = 5
+culture = russian
+religion = orthodox
+trade_goods = iron
+hre= no
+capital = N
+discovered_by = eastern
+discovered_by = western

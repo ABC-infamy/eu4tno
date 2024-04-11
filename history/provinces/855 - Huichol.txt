@@ -1,0 +1,13 @@
+add_core = QIX
+controller = QIX
+owner = QIX
+base_tax = 4
+base_production = 5
+base_manpower = 4
+culture = castillian
+religion = catholic
+trade_goods = livestock
+hre= no
+capital = Huichol
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = EGQ
+controller = EGQ
+owner = EGQ
+base_tax = 3
+base_production = 4
+base_manpower = 5
+culture = 
+religion = sunni
+trade_goods = sugar
+hre= no
+capital = Rosetta
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = SCQ
+controller = SCQ
+owner = SCQ
+base_tax = 6
+base_production = 7
+base_manpower = 8
+culture = highland_scottish
+religion = catholic
+trade_goods = copper
+hre= no
+capital = Orkney
+discovered_by = eastern
+discovered_by = western

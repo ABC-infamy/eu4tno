@@ -1,0 +1,13 @@
+add_core = RKT
+controller = RKT
+owner = RKT
+base_tax = 10
+base_production = 12
+base_manpower = 16
+culture = turkish
+religion = sunni
+trade_goods = grain
+hre= no
+capital = Constantinople
+discovered_by = eastern
+discovered_by = western

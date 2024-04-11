@@ -1,0 +1,13 @@
+add_core = OST
+controller = OST
+owner = OST
+base_tax = 4
+base_production = 4
+base_manpower = 3
+culture = prussian
+religion = catholic
+trade_goods = copper
+hre= no
+capital = Semigallia
+discovered_by = eastern
+discovered_by = western

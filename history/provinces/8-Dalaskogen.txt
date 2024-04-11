@@ -1,0 +1,14 @@
+add_core = SWX
+owner = SWX
+controller = SWX
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 5
+base_production = 6
+trade_goods = coal
+base_manpower = 4
+capital = "Dalaksogen"
+is_city = yes
+discovered_by = eastern
+discovered_by = western

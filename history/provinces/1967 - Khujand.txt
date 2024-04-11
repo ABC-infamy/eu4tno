@@ -1,0 +1,13 @@
+add_core = UZB
+controller = UZB
+owner = UZB
+base_tax = 2
+base_production = 1
+base_manpower = 2
+culture = uzbehk
+religion = sunni
+trade_goods = grain
+hre= no
+capital = Khujand
+discovered_by = eastern
+discovered_by = western

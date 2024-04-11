@@ -1,0 +1,11 @@
+add_core = ZHZ
+controller = ZHZ
+owner = ZHZ
+base_tax = 1
+base_production = 2
+base_manpower = 2
+culture = bengali
+religion = hinduism
+trade_goods = grain
+discovered_by = eastern
+discovered_by = western

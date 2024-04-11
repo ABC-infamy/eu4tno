@@ -1,0 +1,11 @@
+add_core = JXX
+controller = JXX
+owner = JXX
+base_tax = 4
+base_production = 5
+base_manpower = 6
+culture = togoku
+religion = shinto
+trade_goods = cloth
+discovered_by = eastern
+discovered_by = western

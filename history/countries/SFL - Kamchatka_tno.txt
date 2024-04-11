@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = tsardom
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+unit_type = eastern
+capital = 1034
+government_rank = 3

@@ -1,0 +1,13 @@
+add_core = LQX
+controller = LQX
+owner = LQX
+base_tax = 2
+base_production = 2
+base_manpower = 1
+culture = dyola
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Sierra Leone
+discovered_by = eastern
+discovered_by = western

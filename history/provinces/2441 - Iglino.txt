@@ -1,0 +1,11 @@
+add_core = SSU
+controller = SSU
+owner = SSU
+base_tax = 1
+base_production = 1
+base_manpower = 4
+culture = prussian
+religion = catholic
+trade_goods = grain
+discovered_by = eastern
+discovered_by = western

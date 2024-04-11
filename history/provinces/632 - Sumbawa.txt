@@ -1,0 +1,11 @@
+add_core = IJQ
+controller = IJQ
+owner = IJQ
+base_tax = 5
+base_production = 4
+base_manpower = 3
+culture = sunni
+religion = sumatran
+trade_goods = tea
+discovered_by = eastern
+discovered_by = western

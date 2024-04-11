@@ -1,0 +1,11 @@
+add_core = IBQ
+controller = IBQ
+owner = IBQ
+base_tax = 1
+base_production = 1
+base_manpower = 1
+culture = berber
+religion = sunni
+trade_goods = fish
+discovered_by = eastern
+discovered_by = western

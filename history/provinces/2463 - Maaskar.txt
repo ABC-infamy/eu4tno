@@ -1,0 +1,13 @@
+add_core = VIS
+controller = VIS
+owner = VIS
+base_tax = 2
+base_production = 1
+base_manpower = 1
+culture = algerian
+religion = sunni
+trade_goods = wool
+hre= no
+capital = Maaskar
+discovered_by = eastern
+discovered_by = western

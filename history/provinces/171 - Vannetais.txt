@@ -1,0 +1,13 @@
+add_core = VIS
+controller = VIS
+owner = VIS
+base_tax = 6
+base_production = 5
+base_manpower = 5
+culture = cosmopolitan_french
+religion = catholic
+trade_goods = wine
+hre= no
+capital = Vannetais
+discovered_by = eastern
+discovered_by = western

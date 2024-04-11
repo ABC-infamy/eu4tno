@@ -1,0 +1,13 @@
+add_core = BSS
+controller = BSS
+owner = BSS
+base_tax = 5
+base_production = 4
+base_manpower = 9
+culture = cosmopolitan_french
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Artois
+discovered_by = eastern
+discovered_by = western

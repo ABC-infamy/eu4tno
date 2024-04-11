@@ -1,0 +1,13 @@
+add_core = EGQ
+controller = EGQ
+owner = EGQ
+base_tax = 2
+base_production = 3
+base_manpower = 3
+culture = al_iraqiya_arabic
+religion = sunni
+trade_goods = paper
+hre= no
+capital = Suez
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = ARQ
+controller = ARQ
+owner = ARQ
+base_tax = 3
+base_production = 2
+base_manpower = 4
+culture = hejazi_culture
+religion = sunni
+trade_goods = grain
+hre= no
+capital = Al Ula
+discovered_by = eastern
+discovered_by = western

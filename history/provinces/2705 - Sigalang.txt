@@ -1,0 +1,13 @@
+add_core = IJQ
+controller = IJQ
+owner = IJQ
+base_tax = 4
+base_production = 4
+base_manpower = 3
+culture = sunni
+religion = sumatran
+trade_goods = dyes
+hre= no
+capital = Kuching
+discovered_by = eastern
+discovered_by = western

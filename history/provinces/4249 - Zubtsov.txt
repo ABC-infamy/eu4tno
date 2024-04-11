@@ -1,0 +1,13 @@
+add_core = MSK
+controller = MSK
+owner = MSK
+base_tax = 1
+base_production = 2
+base_manpower = 1
+culture = russian
+religion = orthodox
+trade_goods = slaves
+hre= no
+capital = Zubtsov
+discovered_by = eastern
+discovered_by = western

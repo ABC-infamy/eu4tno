@@ -1,0 +1,11 @@
+add_core = FRZ
+controller = FRZ
+owner = FRZ
+base_tax = 2
+base_production = 3
+base_manpower = 2
+culture = fon
+religion = catholic
+trade_goods = cloth
+discovered_by = eastern
+discovered_by = western

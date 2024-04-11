@@ -1,0 +1,4 @@
+#1782 - Central Siberia
+
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,104 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+colonial_parent = SPA
+random_nation_chance = 0
+
+color = { 213  200  19 }
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"JosÈ #0 MarÌa" = 20
+	"SimÛn #0" = 20
+	"CristÛbal #0" = 15
+	"JosÈ #0 Tadeo" = 15
+	"AndrÈs #0" = 10
+	"Carlos #0" = 10
+	"JosÈ #0 Antonio" = 10
+	"Abel #0" = 0
+	"AgustÌn #0" = 0
+	"Alberto #0" = 0
+	"¡lvaro #0" = 0
+	"Antonio #0" = 0
+	"Asdr˙bal #0" = 0
+	"BartolomÈ #0" = 0
+	"Daniel #0" = 0
+	"David #0" = 0
+	"Domingo #0" = 0
+	"Emiliano #0" = 0
+	"Enrique #0" = 0
+	"Evaristo #0" = 0
+	"Fabricio #0" = 0
+	"Fernando #0" = 0
+	"Fidel #0" = 0
+	"Gabriel #0" = 0
+	"JosÈ #0" = 0
+	"Juan #0" = 0
+	"Leonardo #0" = 0
+	"Manuel #0" = 0
+	"Marcos #0" = 0
+	"Miguel #0" = 0
+	"Narciso #0" = 0
+	"Octavio #0" = 0
+	"Pablo #0" = 0
+	"Patricio #0" = 0
+	"Pedro #0" = 0
+	"Roberto #0" = 0
+	"Rufino #0" = 0
+	"Santiago #0" = 0
+	"Tadeo #0" = 0
+	"UlÌses #0" = 0
+	
+	"Delia #0" = -1
+	"Griselda #0" = -1
+	"Olivia #0" = -1
+}
+
+leader_names = {
+	Alcantuz Alfaro Anzo·tegui Bello Beltr·n Berbeo Betancur BolÌvar CarreÒo DÌaz Flores
+	Gait·n Gal·n "GarcÌa de Toledo" GÛmez "GutiÈrrez de PiÒeres"
+	MarÒo M·rquez MÈndez Michelena Mier "de Miranda" Molina Monagas Monsalve Mont˙far
+	NariÒo Narvarte O'Baal O'Leary OrtÌz P·ez Paredo Pastrana Pinilla Pizarro Plata Plaza
+	Roa RodrÌguez Rojas RondÛn Rosillo Santander Soublette Torres
+	Urbaneja Uribe Vargas Viscardo
+}
+
+ship_names = {
+	Anaco
+	Calabozo
+	Caracas
+	"El Tigre"
+	Francisco
+	Guanare
+	Maracaibo
+	Orinoco
+	Trujillo
+	Valencia
+}

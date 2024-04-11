@@ -1,0 +1,13 @@
+add_core = IRK
+controller = IRK
+owner = IRK
+base_tax = 2
+base_production = 3
+base_manpower = 3
+culture = al_iraqiya_arabic
+religion = sunni
+trade_goods = incense
+hre= no
+capital = Sinjar
+discovered_by = eastern
+discovered_by = western

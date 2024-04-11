@@ -1,0 +1,13 @@
+add_core = RKR
+controller = RKR
+owner = RKR
+base_tax = 4
+base_production = 3
+base_manpower = 4
+culture = romanian
+religion = catholic
+trade_goods = copper
+hre= no
+capital = Moldavia
+discovered_by = eastern
+discovered_by = western

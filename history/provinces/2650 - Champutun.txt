@@ -1,0 +1,11 @@
+add_core = QIX
+controller = QIX
+owner = QIX
+base_tax = 2
+base_production = 1
+base_manpower = 2
+culture = castillian
+religion = catholic
+trade_goods = naval_supplies
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = RRZ
+controller = RRZ
+owner = RRZ
+base_tax = 2
+base_production = 1
+base_manpower = 2
+culture = portugese
+religion = catholic
+trade_goods = tea
+hre= no
+capital = Jeremoabo
+discovered_by = eastern
+discovered_by = western

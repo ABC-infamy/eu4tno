@@ -1,0 +1,11 @@
+add_core = AQQ
+controller = AQQ
+owner = AQQ
+base_tax = 2
+base_production = 3
+base_manpower = 1
+culture = khorasani
+religion = sunni
+trade_goods = cotton
+discovered_by = eastern
+discovered_by = western

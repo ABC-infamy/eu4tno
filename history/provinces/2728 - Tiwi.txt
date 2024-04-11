@@ -1,0 +1,13 @@
+add_core = ASQ
+controller = ASQ
+owner = ASQ
+base_tax = 6
+base_production = 8
+base_manpower = 7
+culture = english
+religion = catholic
+trade_goods = fish
+hre= no
+capital = Tiwi
+discovered_by = eastern
+discovered_by = western

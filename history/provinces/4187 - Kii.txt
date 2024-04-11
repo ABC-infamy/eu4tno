@@ -1,0 +1,13 @@
+add_core = JXX
+controller = JXX
+owner = JXX
+base_tax = 4
+base_production = 6
+base_manpower = 5
+culture = togoku
+religion = shinto
+trade_goods = naval_supplies
+hre= no
+capital = Kii
+discovered_by = eastern
+discovered_by = western

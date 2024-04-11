@@ -1,0 +1,13 @@
+add_core = JXX
+controller = JXX
+owner = JXX
+base_tax = 8
+base_production = 8
+base_manpower = 6
+culture = togoku
+religion = shinto
+trade_goods = silk
+hre= no
+capital = Micronesia
+discovered_by = eastern
+discovered_by = western

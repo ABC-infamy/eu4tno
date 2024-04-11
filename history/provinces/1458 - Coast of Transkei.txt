@@ -1,0 +1,4 @@
+
+1497.12.25 = { discovered_by = POR }
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = IRK
+controller = IRK
+owner = IRK
+base_tax = 1
+base_production = 2
+base_manpower = 1
+culture = al_iraqiya_arabic
+religion = sunni
+trade_goods = iron
+hre= no
+capital = Sulimaniyeh
+discovered_by = eastern
+discovered_by = western

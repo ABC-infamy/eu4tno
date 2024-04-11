@@ -1,0 +1,13 @@
+add_core = RKC
+controller = RKC
+owner = RKC
+base_tax = 2
+base_production = 1
+base_manpower = 2
+culture = kuba
+religion = shamanism
+trade_goods = silk
+hre= no
+capital = Lega
+discovered_by = eastern
+discovered_by = western

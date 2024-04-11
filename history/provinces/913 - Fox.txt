@@ -1,0 +1,13 @@
+add_core = USS
+controller = USS
+owner = USS
+base_tax = 4
+base_production = 3
+base_manpower = 5
+culture = american
+religion = catholic
+trade_goods = tobacco
+hre= no
+capital = Fox
+discovered_by = eastern
+discovered_by = western

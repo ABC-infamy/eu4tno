@@ -1,0 +1,11 @@
+add_core = NZK
+controller = NZK
+owner = NZK
+base_tax = 9
+base_production = 7
+base_manpower = 8
+culture = english
+religion = catholic
+trade_goods = grain
+discovered_by = eastern
+discovered_by = western

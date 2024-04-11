@@ -1,0 +1,11 @@
+add_core = RKW
+controller = RKW
+owner = RKW
+base_tax = 1
+base_production = 2
+base_manpower = 1
+culture = masaba
+religion = shamanism
+trade_goods = gems
+discovered_by = eastern
+discovered_by = western

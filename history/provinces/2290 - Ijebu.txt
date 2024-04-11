@@ -1,0 +1,11 @@
+add_core = NGQ
+controller = NGQ
+owner = NGQ
+base_tax = 3
+base_production = 2
+base_manpower = 3
+culture = yorumba
+religion = catholic
+trade_goods = livestock
+discovered_by = eastern
+discovered_by = western

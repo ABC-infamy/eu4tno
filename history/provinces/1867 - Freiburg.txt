@@ -1,0 +1,13 @@
+add_core = SWT
+controller = SWT
+owner = SWT
+base_tax = 14
+base_production = 14
+base_manpower = 14
+culture = swiss
+religion = catholic
+trade_goods = livestock
+hre= no
+capital = Freiburg
+discovered_by = eastern
+discovered_by = western

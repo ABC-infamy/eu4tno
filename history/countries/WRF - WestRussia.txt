@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+capital = 1955 # Moskva
+fixed_capital = 1955 # Cannot move capital away from this province & no power cost to move to it
+
+1443.1.1 = {
+	monarch = {
+		name = "Georgy"
+		dynasty = "Zhukov"
+		birth_date = 1410.1.1
+		dip = 2
+		adm = 3
+		mil = 5
+	}
+}

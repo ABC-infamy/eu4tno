@@ -1,0 +1,11 @@
+add_core = RRZ
+controller = RRZ
+owner = RRZ
+base_tax = 1
+base_production = 2
+base_manpower = 2
+culture = portugese
+religion = catholic
+trade_goods = cloth
+discovered_by = eastern
+discovered_by = western

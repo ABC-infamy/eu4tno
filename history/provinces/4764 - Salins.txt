@@ -1,0 +1,16 @@
+owner = BSS
+controller = BSS
+capital = "Salins"
+is_city = yes
+add_local_autonomy = 30
+culture = burgundian
+religion = catholic
+base_tax = 5
+base_production = 5
+trade_goods = salt
+base_manpower = 6
+add_core = BSS
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

@@ -1,0 +1,13 @@
+add_core = QIX
+controller = QIX
+owner = QIX
+base_tax = 3
+base_production = 4
+base_manpower = 5
+culture = castillian
+religion = catholic
+trade_goods = gold
+hre= no
+capital = Tziccoac
+discovered_by = eastern
+discovered_by = western

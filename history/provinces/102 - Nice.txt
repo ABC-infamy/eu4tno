@@ -1,0 +1,11 @@
+add_core = RIQ
+controller = RIQ
+owner = RIQ
+base_tax = 12
+base_production = 10
+base_manpower = 10
+culture = umbrian
+religion = catholic
+trade_goods = coal
+discovered_by = eastern
+discovered_by = western

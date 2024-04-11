@@ -1,0 +1,13 @@
+add_core = OST
+controller = OST
+owner = OST
+base_tax = 2
+base_production = 1
+base_manpower = 2
+culture = byelorussian
+religion = orthodox
+trade_goods = slaves
+hre= no
+capital = Smolensk
+discovered_by = eastern
+discovered_by = western

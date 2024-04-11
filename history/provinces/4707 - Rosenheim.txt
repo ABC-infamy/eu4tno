@@ -1,0 +1,11 @@
+add_core = REI
+controller = REI
+owner = REI
+base_tax = 7
+base_production = 7
+base_manpower = 8
+culture = prussian
+religion = grain
+trade_goods = salt
+discovered_by = eastern
+discovered_by = western

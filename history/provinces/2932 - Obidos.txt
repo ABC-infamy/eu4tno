@@ -1,0 +1,13 @@
+add_core = LLL
+controller = LLL
+owner = LLL
+base_tax = 1
+base_production = 1
+base_manpower = 1
+culture = nubian
+religion = sunni
+trade_goods = grain
+hre= no
+capital = Obidos
+discovered_by = eastern
+discovered_by = western

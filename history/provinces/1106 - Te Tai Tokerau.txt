@@ -1,0 +1,13 @@
+add_core = NZK
+controller = NZK
+owner = NZK
+base_tax = 6
+base_production = 5
+base_manpower = 6
+culture = english
+religion = catholic
+trade_goods = cotton
+hre= no
+capital = Whangarei
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = ASQ
+controller = ASQ
+owner = ASQ
+base_tax = 6
+base_production = 5
+base_manpower = 6
+culture = english
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Kamilaroi
+discovered_by = eastern
+discovered_by = western

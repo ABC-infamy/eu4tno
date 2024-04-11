@@ -1,0 +1,13 @@
+add_core = BSS
+controller = BSS
+owner = BSS
+base_tax = 4
+base_production = 3
+base_manpower = 10
+culture = cosmopolitan_french
+religion = catholic
+trade_goods = wool
+hre= no
+capital = Barrois
+discovered_by = eastern
+discovered_by = western

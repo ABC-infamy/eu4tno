@@ -1,0 +1,13 @@
+add_core = ALQ
+controller = ALQ
+owner = ALQ
+base_tax = 3
+base_production = 3
+base_manpower = 3
+culture = albanian
+religion = sunni
+trade_goods = wool
+hre= no
+capital = Lezhe
+discovered_by = eastern
+discovered_by = western

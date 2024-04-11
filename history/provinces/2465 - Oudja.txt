@@ -1,0 +1,13 @@
+add_core = IBQ
+controller = IBQ
+owner = IBQ
+base_tax = 3
+base_production = 2
+base_manpower = 3
+culture = moroccan
+religion = sunni
+trade_goods = fish
+hre= no
+capital = Oudja
+discovered_by = eastern
+discovered_by = western

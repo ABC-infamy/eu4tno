@@ -1,0 +1,13 @@
+add_core = IRK
+controller = IRK
+owner = IRK
+base_tax = 2
+base_production = 3
+base_manpower = 2
+culture = al_iraqiya_arabic
+religion = sunni
+trade_goods = iron
+hre= no
+capital = Arbil
+discovered_by = eastern
+discovered_by = western

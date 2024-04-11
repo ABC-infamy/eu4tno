@@ -1,0 +1,11 @@
+add_core = CBZ
+controller = CBZ
+owner = CBZ
+base_tax = 1
+base_production = 2
+base_manpower = 2
+culture = castillian
+religion = catholic
+trade_goods = dyes
+discovered_by = eastern
+discovered_by = western

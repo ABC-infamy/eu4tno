@@ -1,0 +1,13 @@
+add_core = FNL
+controller = FNL
+owner = FNL
+base_tax = 4
+base_production = 4
+base_manpower = 4
+culture = finnish
+religion = catholic
+trade_goods = coal
+hre= no
+capital = Osterbotten
+discovered_by = eastern
+discovered_by = western

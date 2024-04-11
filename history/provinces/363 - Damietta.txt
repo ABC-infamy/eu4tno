@@ -1,0 +1,13 @@
+add_core = EGQ
+controller = EGQ
+owner = EGQ
+base_tax = 4
+base_production = 3
+base_manpower = 4
+culture = 
+religion = sunni
+trade_goods = paper
+hre= no
+capital = Damietta
+discovered_by = eastern
+discovered_by = western

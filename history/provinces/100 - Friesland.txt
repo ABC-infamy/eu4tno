@@ -1,0 +1,11 @@
+add_core = NTZ
+controller = NTZ
+owner = NTZ
+base_tax = 8
+base_production = 9
+base_manpower = 8
+culture = dutch
+religion = catholic
+trade_goods = fish
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = CQN
+controller = CQN
+owner = CQN
+base_tax = 2
+base_production = 3
+base_manpower = 2
+culture = english
+religion = catholic
+trade_goods = copper
+hre= no
+capital = Moose Cree
+discovered_by = eastern
+discovered_by = western

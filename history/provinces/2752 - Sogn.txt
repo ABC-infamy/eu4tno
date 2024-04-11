@@ -1,0 +1,13 @@
+owner = NVX
+controller = NVX
+add_core = NVX
+culture = norwegian
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 2
+trade_goods = fish
+base_manpower = 3
+is_city = yes
+discovered_by = eastern
+discovered_by = western

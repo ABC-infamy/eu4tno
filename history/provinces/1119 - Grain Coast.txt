@@ -1,0 +1,11 @@
+add_core = LQX
+controller = LQX
+owner = LQX
+base_tax = 2
+base_production = 1
+base_manpower = 1
+culture = dyola
+religion = catholic
+trade_goods = ivory
+discovered_by = eastern
+discovered_by = western

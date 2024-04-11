@@ -1,0 +1,11 @@
+add_core = REI
+controller = REI
+owner = REI
+base_tax = 8
+base_production = 7
+base_manpower = 8
+culture = prussian
+religion = catholic
+trade_goods = naval_supplies
+discovered_by = eastern
+discovered_by = western

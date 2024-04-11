@@ -1,0 +1,13 @@
+add_core = ZHZ
+controller = ZHZ
+owner = ZHZ
+base_tax = 3
+base_production = 3
+base_manpower = 2
+culture = bengali
+religion = hinduism
+trade_goods = dyes
+hre= no
+capital = Minsin
+discovered_by = eastern
+discovered_by = western

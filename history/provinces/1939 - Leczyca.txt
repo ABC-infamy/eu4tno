@@ -1,0 +1,13 @@
+add_core = RKP
+controller = RKP
+owner = RKP
+base_tax = 2
+base_production = 3
+base_manpower = 3
+culture = polish
+religion = catholic
+trade_goods = slaves
+hre= no
+capital = Leczyca
+discovered_by = eastern
+discovered_by = western

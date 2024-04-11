@@ -1,0 +1,11 @@
+add_core = RIQ
+controller = RIQ
+owner = RIQ
+base_tax = 15
+base_production = 18
+base_manpower = 12
+culture = umbrian
+religion = catholic
+trade_goods = paper
+discovered_by = eastern
+discovered_by = western

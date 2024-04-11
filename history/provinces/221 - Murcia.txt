@@ -1,0 +1,13 @@
+add_core = IBQ
+controller = IBQ
+owner = IBQ
+base_tax = 4
+base_production = 4
+base_manpower = 5
+culture = castilian
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Murcia
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = ONE
+controller = ONE
+owner = ONE
+base_tax = 2
+base_production = 2
+base_manpower = 2
+culture = russian
+religion = orthodox
+trade_goods = iron
+hre= no
+capital = Soroka
+discovered_by = eastern
+discovered_by = western

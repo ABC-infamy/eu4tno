@@ -1,0 +1,13 @@
+add_core = IJQ
+controller = IJQ
+owner = IJQ
+base_tax = 3
+base_production = 3
+base_manpower = 4
+culture = animism
+religion = sumatran
+trade_goods = silk
+hre= no
+capital = Madura
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = REI
+controller = REI
+owner = REI
+base_tax = 15
+base_production = 12
+base_manpower = 15
+culture = prussian
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Wien
+discovered_by = eastern
+discovered_by = western

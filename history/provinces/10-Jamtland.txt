@@ -1,0 +1,16 @@
+#J�mtland+H�rjedalen
+
+add_core = SWX
+owner = SWX
+controller = SWX
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 4
+base_production = 2
+trade_goods = grain
+base_manpower = 4
+capital = "Jamtland"
+is_city = yes
+discovered_by = eastern
+discovered_by = western

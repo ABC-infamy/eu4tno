@@ -1,0 +1,13 @@
+add_core = RKP
+controller = RKP
+owner = RKP
+base_tax = 2
+base_production = 1
+base_manpower = 1
+culture = polish
+religion = orthodox
+trade_goods = grain
+hre= no
+capital = Chelm
+discovered_by = eastern
+discovered_by = western

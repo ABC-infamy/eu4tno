@@ -1,0 +1,13 @@
+add_core = IJQ
+controller = IJQ
+owner = IJQ
+base_tax = 4
+base_production = 3
+base_manpower = 3
+culture = sunni
+religion = sumatran
+trade_goods = spices
+hre= no
+capital = Makassar
+discovered_by = eastern
+discovered_by = western

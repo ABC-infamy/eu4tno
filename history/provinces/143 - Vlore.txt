@@ -1,0 +1,13 @@
+add_core = ALQ
+controller = ALQ
+owner = ALQ
+base_tax = 4
+base_production = 3
+base_manpower = 2
+culture = albanian
+religion = sunni
+trade_goods = grain
+hre= no
+capital = Vlore
+discovered_by = eastern
+discovered_by = western

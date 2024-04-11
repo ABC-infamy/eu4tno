@@ -1,0 +1,13 @@
+add_core = RIQ
+controller = RIQ
+owner = RIQ
+base_tax = 9
+base_production = 8
+base_manpower = 7
+culture = umbrian
+religion = catholic
+trade_goods = livestock
+hre= no
+capital = Abbruzzi
+discovered_by = eastern
+discovered_by = western

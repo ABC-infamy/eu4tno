@@ -1,0 +1,11 @@
+add_core = OST
+controller = OST
+owner = OST
+base_tax = 1
+base_production = 2
+base_manpower = 2
+culture = byelorussian
+religion = orthodox
+trade_goods = slaves
+discovered_by = eastern
+discovered_by = western

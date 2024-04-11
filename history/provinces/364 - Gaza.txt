@@ -1,0 +1,11 @@
+add_core = MXQ
+controller = MXQ
+owner = MXQ
+base_tax = 2
+base_production = 3
+base_manpower = 2
+culture = bedouin_arabic
+religion = sunni
+trade_goods = incense
+discovered_by = eastern
+discovered_by = western

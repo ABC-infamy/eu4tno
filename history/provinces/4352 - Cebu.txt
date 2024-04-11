@@ -1,0 +1,13 @@
+add_core = PQX
+controller = PQX
+owner = PQX
+base_tax = 2
+base_production = 1
+base_manpower = 1
+culture = animism
+religion = filipino
+trade_goods = dyes
+hre= no
+capital = Cebu
+discovered_by = eastern
+discovered_by = western

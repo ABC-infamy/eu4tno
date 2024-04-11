@@ -1,0 +1,11 @@
+add_core = RKE
+controller = RKE
+owner = RKE
+base_tax = 2
+base_production = 3
+base_manpower = 2
+culture = kuba
+religion = shamanism
+trade_goods = gold
+discovered_by = eastern
+discovered_by = western

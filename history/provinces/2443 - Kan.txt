@@ -1,0 +1,11 @@
+add_core = RUR
+controller = RUR
+owner = RUR
+base_tax = 2
+base_production = 3
+base_manpower = 3
+culture = russian
+religion = orthodox
+trade_goods = grain
+discovered_by = eastern
+discovered_by = western

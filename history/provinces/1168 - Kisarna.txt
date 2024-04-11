@@ -1,0 +1,13 @@
+add_core = RKE
+controller = RKE
+owner = RKE
+base_tax = 4
+base_production = 2
+base_manpower = 6
+culture = prussian
+religion = catholic
+trade_goods = iron
+hre= no
+capital = Kisarna
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = USS
+controller = USS
+owner = USS
+base_tax = 5
+base_production = 6
+base_manpower = 3
+culture = american
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Bermuda
+discovered_by = eastern
+discovered_by = western

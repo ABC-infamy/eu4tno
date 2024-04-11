@@ -1,0 +1,13 @@
+add_core = BSS
+controller = BSS
+owner = BSS
+base_tax = 3
+base_production = 3
+base_manpower = 12
+culture = flemish
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Brabant
+discovered_by = eastern
+discovered_by = western

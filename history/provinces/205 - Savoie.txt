@@ -1,0 +1,11 @@
+add_core = VIS
+controller = VIS
+owner = VIS
+base_tax = 7
+base_production = 9
+base_manpower = 10
+culture = cosmopolitan_french
+religion = catholic
+trade_goods = livestock
+discovered_by = eastern
+discovered_by = western

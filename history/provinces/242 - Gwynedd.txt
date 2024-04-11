@@ -1,0 +1,11 @@
+add_core = WLQ
+controller = WLQ
+owner = WLQ
+base_tax = 7
+base_production = 8
+base_manpower = 7
+culture = welsh
+religion = catholic
+trade_goods = paper
+discovered_by = eastern
+discovered_by = western

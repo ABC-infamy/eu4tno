@@ -1,0 +1,11 @@
+add_core = CAU
+controller = CAU
+owner = CAU
+base_tax = 1
+base_production = 2
+base_manpower = 2
+culture = astrakhani
+religion = sunni
+trade_goods = gems
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = LLL
+controller = LLL
+owner = LLL
+base_tax = 1
+base_production = 2
+base_manpower = 1
+culture = nubian
+religion = shamanism
+trade_goods = livestock
+hre= no
+capital = Kordofan
+discovered_by = eastern
+discovered_by = western

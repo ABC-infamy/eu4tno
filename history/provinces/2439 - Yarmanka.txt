@@ -1,0 +1,13 @@
+add_core = MDQ
+controller = MDQ
+owner = MDQ
+base_tax = 1
+base_production = 1
+base_manpower = 1
+culture = yukagyr
+religion = tengri_pagan_reformed
+trade_goods = fish
+hre= no
+capital = Yarmanka
+discovered_by = eastern
+discovered_by = western

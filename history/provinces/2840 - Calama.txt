@@ -1,0 +1,11 @@
+add_core = CUU
+controller = CUU
+owner = CUU
+base_tax = 3
+base_production = 2
+base_manpower = 2
+culture = castilian
+religion = catholic
+trade_goods = livestock
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = OST
+controller = OST
+owner = OST
+base_tax = 3
+base_production = 3
+base_manpower = 4
+culture = prussian
+religion = catholic
+trade_goods = glass
+hre= no
+capital = Wenden
+discovered_by = eastern
+discovered_by = western

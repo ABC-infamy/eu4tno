@@ -1,0 +1,11 @@
+add_core = PQQ
+controller = PQQ
+owner = PQQ
+base_tax = 2
+base_production = 2
+base_manpower = 2
+culture = mongol
+religion = tengri_pagan_reformed
+trade_goods = livestock
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = ASQ
+controller = ASQ
+owner = ASQ
+base_tax = 7
+base_production = 7
+base_manpower = 8
+culture = english
+religion = catholic
+trade_goods = fish
+hre= no
+capital = Yolngu
+discovered_by = eastern
+discovered_by = western

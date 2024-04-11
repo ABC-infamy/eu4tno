@@ -1,0 +1,80 @@
+tno_tomsk_missions_1 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = TOM
+		}
+	}
+	ai_region_unite_tom = {
+		icon = mission_cannons_firing
+		position = 1
+		required_missions = {  }
+		provinces_to_highlight = {  }
+		trigger = {
+			adm_tech = 8
+			dip_tech = 8
+            mil_tech = 8
+		}
+		effect = {
+			if = {
+				limit = {
+					ai = yes
+					NOT = {
+						OR = {
+							ai = no
+							tag = NSB
+							tag = BAR
+							tag = VSO
+							tag = RUR
+							tag = KRS
+						}
+                	}
+				}
+				inherit = NSB
+				inherit = BAR
+				inherit = VSO
+				inherit = RUR
+				inherit = KRS
+			}
+			country_event = { id = tno_tomsk.1 }
+		}
+	}
+}
+tno_tomsk_missions_2 = {    
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = TOM
+		}
+	}
+	ai_region_unite_tom_2 = {
+		icon = mission_cannons_firing
+		position = 2
+		required_missions = { ai_region_unite_tom }
+		provinces_to_highlight = {  }
+		trigger = {
+			adm_tech = 12
+			dip_tech = 12
+            mil_tech = 12
+		}
+		effect = {
+			if = {
+				limit = {
+					ai = yes
+					NOT = {
+						OR = {
+							ai = no
+							tag = ZZE
+						}
+                	}
+				}
+				inherit = ZZE
+			}
+			country_event = { id = tno_tomsk.2 }
+		}
+	}
+}

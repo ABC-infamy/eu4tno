@@ -1,0 +1,11 @@
+add_core = IBQ
+controller = IBQ
+owner = IBQ
+base_tax = 2
+base_production = 3
+base_manpower = 3
+culture = moroccan
+religion = sunni
+trade_goods = naval_supplies
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,35 @@
+############################################################################
+# TNO Base Events 
+# Written by Ukeng
+############################################################################
+
+namespace = tno_base
+
+country_event = {
+    id = tno_base_lore.1
+    title = tno_base_lore.1.t
+    desc = tno_base_lore.1.d
+    picture = CITY_VIEW_eventPicture
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = tno_base_lore.1.a
+        hidden_effect = {
+            every_country = {
+                limit = {
+                    #ai = yes
+                    always = yes
+                }
+                add_country_modifier = {
+                    name = tno_ai_modifier
+                    duration = -1
+                    desc = tno_ai_modifier_DESC_TOOLTIP
+                    hidden = no
+			    }
+            }
+        }
+    }
+}

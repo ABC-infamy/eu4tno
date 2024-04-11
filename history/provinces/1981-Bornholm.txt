@@ -1,0 +1,11 @@
+add_core = DNX
+controller = DNX
+owner = DNX
+base_tax = 4
+base_production = 5
+base_manpower = 3
+culture = danish
+religion = catholic
+trade_goods = naval_supplies
+discovered_by = eastern
+discovered_by = western

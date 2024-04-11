@@ -1,0 +1,11 @@
+add_core = VIS
+controller = VIS
+owner = VIS
+base_tax = 2
+base_production = 1
+base_manpower = 2
+culture = algerian
+religion = sunni
+trade_goods = gems
+discovered_by = eastern
+discovered_by = western

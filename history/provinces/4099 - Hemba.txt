@@ -1,0 +1,13 @@
+add_core = RKC
+controller = RKC
+owner = RKC
+base_tax = 1
+base_production = 2
+base_manpower = 1
+culture = kuba
+religion = shamanism
+trade_goods = tropical_wood
+hre= no
+capital = Hemba
+discovered_by = eastern
+discovered_by = western

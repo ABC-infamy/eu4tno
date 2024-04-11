@@ -1,0 +1,13 @@
+add_core = UKA
+controller = UKA
+owner = UKA
+base_tax = 4
+base_production = 3
+base_manpower = 4
+culture = prussian
+religion = catholic
+trade_goods = iron
+hre= no
+capital = Kiev
+discovered_by = eastern
+discovered_by = western

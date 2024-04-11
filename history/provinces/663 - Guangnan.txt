@@ -1,0 +1,11 @@
+add_core = YYN
+controller = YYN
+owner = YYN
+base_tax = 2
+base_production = 1
+base_manpower = 1
+culture = bai
+religion = buddhism
+trade_goods = dyes
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,11 @@
+add_core = MRN
+controller = MRN
+owner = MRN
+base_tax = 3
+base_production = 2
+base_manpower = 3
+culture = serbian
+religion = orthodox
+trade_goods = grain
+discovered_by = eastern
+discovered_by = western

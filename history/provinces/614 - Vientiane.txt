@@ -1,0 +1,13 @@
+add_core = STI
+controller = STI
+owner = STI
+base_tax = 3
+base_production = 2
+base_manpower = 2
+culture = central_thai
+religion = buddhism
+trade_goods = fish
+hre= no
+capital = Vientiane
+discovered_by = eastern
+discovered_by = western

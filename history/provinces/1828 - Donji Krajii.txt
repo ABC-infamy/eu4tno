@@ -1,0 +1,13 @@
+add_core = UST
+controller = UST
+owner = UST
+base_tax = 4
+base_production = 3
+base_manpower = 2
+culture = croatian
+religion = catholic
+trade_goods = wool
+hre= no
+capital = Donji Krajii
+discovered_by = eastern
+discovered_by = western

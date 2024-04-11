@@ -1,0 +1,17 @@
+# 1865 - Ghent
+
+owner = BSS
+controller = BSS
+add_core = BSS
+is_city = yes
+capital = "Ghent"
+culture = flemish
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 3
+trade_goods = cloth
+base_manpower = 3
+discovered_by = eastern
+discovered_by = eastern
+discovered_by = western

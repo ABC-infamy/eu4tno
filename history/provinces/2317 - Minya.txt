@@ -1,0 +1,13 @@
+add_core = EGQ
+controller = EGQ
+owner = EGQ
+base_tax = 2
+base_production = 1
+base_manpower = 2
+culture = 
+religion = sunni
+trade_goods = livestock
+hre= no
+capital = Minya
+discovered_by = eastern
+discovered_by = western

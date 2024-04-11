@@ -1,0 +1,11 @@
+add_core = SFL
+controller = SFL
+owner = SFL
+base_tax = 1
+base_production = 2
+base_manpower = 1
+culture = kamchatkan
+religion = tengri_pagan_reformed
+trade_goods = fish
+discovered_by = eastern
+discovered_by = western

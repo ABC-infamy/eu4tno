@@ -1,0 +1,11 @@
+add_core = SWT
+controller = SWT
+owner = SWT
+base_tax = 15
+base_production = 18
+base_manpower = 12
+culture = swiss
+religion = catholic
+trade_goods = naval_supplies
+discovered_by = eastern
+discovered_by = western

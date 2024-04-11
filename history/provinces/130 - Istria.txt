@@ -1,0 +1,13 @@
+add_core = RIQ
+controller = RIQ
+owner = RIQ
+base_tax = 7
+base_production = 8
+base_manpower = 10
+culture = umbrian
+religion = catholic
+trade_goods = cloth
+hre= no
+capital = Istria
+discovered_by = eastern
+discovered_by = western

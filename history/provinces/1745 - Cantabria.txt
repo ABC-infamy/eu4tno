@@ -1,0 +1,13 @@
+add_core = IBQ
+controller = IBQ
+owner = IBQ
+base_tax = 8
+base_production = 6
+base_manpower = 7
+culture = castilian
+religion = catholic
+trade_goods = livestock
+hre= no
+capital = Cantabria
+discovered_by = eastern
+discovered_by = western

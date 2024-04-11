@@ -1,0 +1,13 @@
+add_core = JXX
+controller = JXX
+owner = JXX
+base_tax = 6
+base_production = 6
+base_manpower = 7
+culture = togoku
+religion = shinto
+trade_goods = iron
+hre= no
+capital = Mutsu
+discovered_by = eastern
+discovered_by = western

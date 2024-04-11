@@ -1,0 +1,13 @@
+add_core = MXQ
+controller = MXQ
+owner = MXQ
+base_tax = 4
+base_production = 4
+base_manpower = 4
+culture = umbrian
+religion = catholic
+trade_goods = incense
+hre= no
+capital = Sidon
+discovered_by = eastern
+discovered_by = western

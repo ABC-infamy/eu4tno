@@ -1,0 +1,13 @@
+add_core = IRJ
+controller = IRJ
+owner = IRJ
+base_tax = 5
+base_production = 6
+base_manpower = 5
+culture = irish
+religion = catholic
+trade_goods = coal
+hre= no
+capital = Meath
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = EPQ
+controller = EPQ
+owner = EPQ
+base_tax = 3
+base_production = 3
+base_manpower = 2
+culture = amhara
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Tigre
+discovered_by = eastern
+discovered_by = western

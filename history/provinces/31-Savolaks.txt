@@ -1,0 +1,13 @@
+add_core = FNL
+controller = FNL
+owner = FNL
+base_tax = 5
+base_production = 5
+base_manpower = 5
+culture = finnish
+religion = catholic
+trade_goods = grain
+hre= no
+capital = Savolaks
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = PQX
+controller = PQX
+owner = PQX
+base_tax = 1
+base_production = 1
+base_manpower = 2
+culture = catholic
+religion = filipino
+trade_goods = dyes
+hre= no
+capital = Butuan
+discovered_by = eastern
+discovered_by = western

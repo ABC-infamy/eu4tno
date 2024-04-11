@@ -1,0 +1,13 @@
+add_core = IBQ
+controller = IBQ
+owner = IBQ
+base_tax = 8
+base_production = 5
+base_manpower = 5
+culture = castilian
+religion = catholic
+trade_goods = paper
+hre= no
+capital = Urgell
+discovered_by = eastern
+discovered_by = western

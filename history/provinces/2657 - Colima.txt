@@ -1,0 +1,13 @@
+add_core = QIX
+controller = QIX
+owner = QIX
+base_tax = 4
+base_production = 5
+base_manpower = 3
+culture = castillian
+religion = catholic
+trade_goods = cloth
+hre= no
+capital = Colima
+discovered_by = eastern
+discovered_by = western

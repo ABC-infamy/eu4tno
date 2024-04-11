@@ -1,0 +1,13 @@
+add_core = IJQ
+controller = IJQ
+owner = IJQ
+base_tax = 5
+base_production = 5
+base_manpower = 4
+culture = sunni
+religion = sumatran
+trade_goods = dyes
+hre= no
+capital = Christmas Island
+discovered_by = eastern
+discovered_by = western

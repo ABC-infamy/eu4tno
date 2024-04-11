@@ -1,0 +1,13 @@
+add_core = TMQ
+controller = TMQ
+owner = TMQ
+base_tax = 2
+base_production = 1
+base_manpower = 2
+culture = mossi
+religion = sunni
+trade_goods = grain
+hre= no
+capital = Mema
+discovered_by = eastern
+discovered_by = western

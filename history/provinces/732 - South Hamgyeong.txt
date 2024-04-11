@@ -1,0 +1,13 @@
+add_core = JXX
+controller = JXX
+owner = JXX
+base_tax = 3
+base_production = 4
+base_manpower = 5
+culture = togoku
+religion = shinto
+trade_goods = grain
+hre= no
+capital = South Hamgyeong
+discovered_by = eastern
+discovered_by = western

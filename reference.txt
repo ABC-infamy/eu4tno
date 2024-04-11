@@ -1,0 +1,130 @@
+Tags:
+Moscow : MSK
+West Russia : WRF -
+Vologda : VLG -
+KOMI : KOM -
+BEREZNIKI : BER - 
+VIATKA : VIA - 
+BROTHERHOOD : ARY -
+SAMARA : SAM -
+TATARS : TAT -
+BASHKIRS : BSK -
+GORKY : GOR - 
+ORENBURG : ORE -
+URAL LEAGUE : URA -
+Onega : ONE
+Ukraine : UKA
+Ostland: OST
+Finland : FNL
+RK Causases : CAU
+Poland : RKP
+Reich : REI
+Hungary : RKH
+Crimea: CRI
+Bulgaria : RKB
+Romania : RKR
+Turkie : RKT /
+Sweden: SWX /
+Norway: NVX /
+Denmark: DNX / 
+Kazakstan: KZX / 
+Omsk: OMS / 
+Free aviators: FVS / 
+Yugra : YUG /
+Zlatoust: ZLT / 
+Batov : URD
+Kaganovich : URS
+Lysenko : LYS
+SS Ural: SSU
+Novosibirsk : NSB
+Tomsk : TOM
+Black army: BAR
+Vasilevsky army: VSO
+Kemerovo : RUR
+Krasnoyrsk : KRS
+Far east sov : YAG
+Sablin : SBL
+Mandate: MDQ
+Kamchatka : SFL
+Magadan : MGD
+Yakutia : YYK
+Chita : CCT
+Zeya : ZZE
+Tajikistan : TAJ
+Kyrgystan : KYZ
+Uzbekistan : UZB
+Turkmentistan : TRM
+UK: UKQ
+Wales: WLQ
+Scotland: SCQ
+Ireland: IRJ
+Netharlands: NTZ
+Burgundy : BSS
+Italy: RIQ
+Iberia: IBQ
+Greece: GRQ
+Albania: ALQ
+Montenegro: MRN
+Serbia : SRQ
+Croatia : UST
+ItalianEgypt : EGQ
+ItalianMiddleEast: MXQ
+ItalianEphiopia, EPQ
+Nigeria, NGQ
+Timbuktu, TMQ
+FreeFrance, FRZ
+Liberia, LQX
+Dahomey, DHX
+RKACENTER, RKC
+RKAEAST, RKE
+RKAWEST,RKW
+South Africa, AAQ
+Madagascar, QQF
+Island, ISJ
+greenland, GQQ
+chad, LLL
+Saudi, ARQ
+Yemen, YZX
+Oman, OXX
+Japan, JXX
+Machu, MYY
+JapMongol, JMQ
+Mongol, PQQ
+ChinaJAp, CQQ
+Xinxiang, XXI
+Tibet, TUG
+JAPSanma, JJC
+Guanxi, GKL
+Yunan, YYN
+Iran, IQQ
+Iraq,IRK
+Afganistan, AQQ
+Pakistan, PAK
+Azad, ZHZ
+nepal, NPQ
+butan, BQT
+India (isl), HIN
+Indonisia, IJQ
+Philipines, PQX
+Siam, STI
+Austalia, ASQ
+NZeland, NZK
+USA, USS
+CANADA, CQN
+MEXICO, QIX
+cuba, CBZ
+centroamerica, CAA
+dominico, DMQ
+argentina, ARR
+uruguay, UUG
+chile, CUU
+peru, PRR
+equador, EQQ
+brazil, RRZ
+paraguay, PQY
+columbia, CQL
+venezuela, VUU
+guamconf, GUA
+bolivia, BLQ
+switzerland, SWT
+french State VIS

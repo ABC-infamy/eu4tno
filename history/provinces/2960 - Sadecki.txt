@@ -1,0 +1,13 @@
+add_core = RKP
+controller = RKP
+owner = RKP
+base_tax = 2
+base_production = 2
+base_manpower = 2
+culture = polish
+religion = catholic
+trade_goods = coal
+hre= no
+capital = Sadecki
+discovered_by = eastern
+discovered_by = western

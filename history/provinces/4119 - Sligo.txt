@@ -1,0 +1,13 @@
+add_core = IRJ
+controller = IRJ
+owner = IRJ
+base_tax = 6
+base_production = 5
+base_manpower = 3
+culture = irish
+religion = catholic
+trade_goods = iron
+hre= no
+capital = Sligo
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,13 @@
+add_core = EGQ
+controller = EGQ
+owner = EGQ
+base_tax = 3
+base_production = 4
+base_manpower = 6
+culture = 
+religion = sunni
+trade_goods = naval_supplies
+hre= no
+capital = Buhaira
+discovered_by = eastern
+discovered_by = western

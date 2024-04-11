@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+primary_culture = prussian
+religion = catholic
+capital = 38
+
+1443.1.1 = {
+	monarch = {
+		name = "Henrih"
+		dynasty = "Losche"
+		birth_date = 1410.1.1
+		dip = 5
+		adm = 2
+		mil = 2
+	}
+}

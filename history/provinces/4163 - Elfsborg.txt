@@ -1,0 +1,16 @@
+owner = SWX
+controller = SWX
+add_core = SWX
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 6
+trade_goods = grain
+base_manpower = 5
+fort_15th = yes
+capital = "Elfsborg"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+extra_cost = 8

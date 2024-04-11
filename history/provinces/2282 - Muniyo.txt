@@ -1,0 +1,11 @@
+add_core = NGQ
+controller = NGQ
+owner = NGQ
+base_tax = 2
+base_production = 1
+base_manpower = 3
+culture = mossi
+religion = sunni
+trade_goods = incense
+discovered_by = eastern
+discovered_by = western

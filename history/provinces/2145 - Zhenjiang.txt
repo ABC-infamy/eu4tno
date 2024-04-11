@@ -1,0 +1,13 @@
+add_core = CQQ
+controller = CQQ
+owner = CQQ
+base_tax = 1
+base_production = 2
+base_manpower = 2
+culture = chihan
+religion = confucianism
+trade_goods = naval_supplies
+hre= no
+capital = Zhenjiang
+discovered_by = eastern
+discovered_by = western

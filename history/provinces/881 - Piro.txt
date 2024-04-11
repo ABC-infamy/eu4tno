@@ -1,0 +1,13 @@
+add_core = USS
+controller = USS
+owner = USS
+base_tax = 5
+base_production = 6
+base_manpower = 5
+culture = american
+religion = catholic
+trade_goods = livestock
+hre= no
+capital = Piro
+discovered_by = eastern
+discovered_by = western

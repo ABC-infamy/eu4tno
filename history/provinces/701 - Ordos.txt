@@ -1,0 +1,13 @@
+add_core = JJC
+controller = JJC
+owner = JJC
+base_tax = 2
+base_production = 1
+base_manpower = 2
+culture = mongol
+religion = vajrayana
+trade_goods = livestock
+hre= no
+capital = Ordos
+discovered_by = eastern
+discovered_by = western

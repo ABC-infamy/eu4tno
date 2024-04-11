@@ -1,0 +1,13 @@
+add_core = CAU
+controller = CAU
+owner = CAU
+base_tax = 2
+base_production = 3
+base_manpower = 2
+culture = georgian
+religion = sunni
+trade_goods = wine
+hre= no
+capital = Kartli
+discovered_by = eastern
+discovered_by = western

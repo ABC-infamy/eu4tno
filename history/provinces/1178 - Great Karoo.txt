@@ -1,0 +1,13 @@
+add_core = AAQ
+controller = AAQ
+owner = AAQ
+base_tax = 3
+base_production = 3
+base_manpower = 2
+culture = nguni
+religion = shamanism
+trade_goods = grain
+hre= no
+capital = Great Karoo
+discovered_by = eastern
+discovered_by = western

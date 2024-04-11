@@ -1,0 +1,15 @@
+owner = NVX
+controller = NVX
+add_core = NVX
+culture = norwegian
+religion = catholic
+hre = no
+base_tax = 5
+base_production = 3
+trade_goods = naval_supplies
+base_manpower = 3
+capital = "Skien" #Bratsberg Gaard
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,11 @@
+add_core = TUG
+controller = TUG
+owner = TUG
+base_tax = 2
+base_production = 2
+base_manpower = 2
+culture = tibetan
+religion = vajrayana
+trade_goods = cotton
+discovered_by = eastern
+discovered_by = western

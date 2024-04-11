@@ -1,0 +1,13 @@
+add_core = VIA
+controller = VIA
+owner = VIA
+base_tax = 2
+base_production = 2
+base_manpower = 1
+culture = russian
+religion = orthodox
+trade_goods = livestock
+hre= no
+capital = Izhkar
+discovered_by = eastern
+discovered_by = western

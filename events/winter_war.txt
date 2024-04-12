@@ -60,7 +60,7 @@ country_event = {
 
     trigger = {
         tag = WRF
-        has_war_with = FNL
+        war_with = FNL
         ai = yes
     }
 

@@ -22,7 +22,6 @@ tno_wrrf_missions_1 = {
 				desc = WRRF_famine_DESC_TOOLTIP
     			hidden = no
 			}
-			country_event = { id = tno_wrf.1 }
 		}
 	}
 }

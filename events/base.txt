@@ -39,3 +39,49 @@ country_event = {
         }
     }
 }
+
+country_event = {
+    id = tno_base_var_update.1
+    title = tno_base_var_update.1.t
+    desc = tno_base_var_updates.1.d
+    picture = CITY_VIEW_eventPicture
+
+    trigger = {
+	    TAG = TMQ
+        ai = yes
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = tno_base_var_update.1.a
+        hidden_effect = {
+            change_variable = {
+                which = wrf_tno_army_development_modifier
+                value = wrf_tno_army_development_modifier_delta
+            }
+            change_variable = {
+                which = wrf_tno_industry_development_modifier
+                value = wrf_tno_industry_development_modifier_delta
+            }
+            change_variable = {
+                which = wrf_tno_agriculture_development_modifier
+                value = wrf_tno_agriculture_development_modifier_delta
+            }
+            change_variable = {
+                which = wrf_tno_education_development_modifier
+                value = wrf_tno_education_development_modifier_delta
+            }
+            change_variable = {
+                which = wrf_tno_poverty_development_modifier
+                value = wrf_tno_poverty_development_modifier_delta
+            }
+            change_variable = {
+                which = wrf_tno_administration_development_modifier
+                value = tno_administration_development_modifier_delta
+            }
+        }
+    }
+}

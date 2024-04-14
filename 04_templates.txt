@@ -1,0 +1,56 @@
+#Values
+#0 - 6000 Tier 1
+#6000 - 12000 Tier 2
+#12000 - 18000 Tier 3
+#18000 - 24000 Tier 4
+#24000 - 30000 Tier 5
+#The code snipped above is example for WRRF
+set_variable = {
+    which = tno_army_development_modifier
+    value = 8000
+}
+set_variable = {
+    which = tno_industry_development_modifier
+    value = 2000
+}
+set_variable = {
+    which = tno_agriculture_development_modifier
+    value = 1000
+}
+set_variable = {
+    which = tno_education_development_modifier
+    value = 7500
+}
+set_variable = {
+    which = tno_poverty_development_modifier
+    value = 2000
+}
+set_variable = {
+    which = tno_administration_development_modifier
+    value = 5
+}
+#Delta is how much the value will change by monthy rate can be increaded by completing missions or decisions
+set_variable = {
+    which = tno_army_development_modifier_delta
+    value = 1
+}
+set_variable = {
+    which = tno_industry_development_modifier_delta
+    value = 0
+}
+set_variable = {
+    which = tno_agriculture_development_modifier_delta
+    value = 1
+}
+set_variable = {
+    which = tno_education_development_modifier_delta
+    value = 0
+}
+set_variable = {
+    which = tno_poverty_development_modifier_delta
+    value = 0
+}
+set_variable = {
+    which = tno_administration_development_modifier_delta
+    value = 1
+}

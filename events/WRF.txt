@@ -12,9 +12,10 @@ country_event = {
 	picture = BATTLE_eventPicture
 	
 	trigger = {
+		ai = no
 	}
 	
-	is_triggered_only = yes
+	fire_only_once = yes
 	
 	mean_time_to_happen = {
 		days = 1
@@ -25,6 +26,56 @@ country_event = {
 		set_variable = {
 			which = powerStruggle
 			value = 5
+		}
+		#WRRF sovcietal development
+		set_variable = {
+			which = wrf_tno_army_development_modifier
+			value = 8000
+		}
+		set_variable = {
+			which = wrf_tno_industry_development_modifier
+			value = 2000
+		}
+		set_variable = {
+			which = wrf_tno_agriculture_development_modifier
+			value = 1000
+		}
+		set_variable = {
+			which = wrf_tno_education_development_modifier
+			value = 7500
+		}
+		set_variable = {
+			which = wrf_tno_poverty_development_modifier
+			value = 2000
+		}
+		set_variable = {
+			which = wrf_tno_administration_development_modifier
+			value = 5
+		}
+		#Delta is how much the value will change by monthy rate can be increaded by completing missions or decisions
+		set_variable = {
+			which = wrf_tno_army_development_modifier_delta
+			value = 1
+		}
+		set_variable = {
+			which = wrf_tno_industry_development_modifier_delta
+			value = 0
+		}
+		set_variable = {
+			which = wrf_tno_agriculture_development_modifier_delta
+			value = 1
+		}
+		set_variable = {
+			which = wrf_tno_education_development_modifier_delta
+			value = 0
+		}
+		set_variable = {
+			which = wrf_tno_poverty_development_modifier_delta
+			value = 0
+		}
+		set_variable = {
+			which = tno_administration_development_modifier_delta
+			value = 1
 		}
 		add_adm_power = 25
 		add_dip_power = 25

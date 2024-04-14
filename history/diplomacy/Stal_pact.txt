@@ -1,0 +1,79 @@
+#German, it's Allies and RKs
+vassal = {
+	first = REI
+	second = MSK
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = REI
+	second = UKA
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = REI
+	second = OST
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = REI
+	second = RKR
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = REI
+	second = RKB
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = REI
+	second = RKH
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = REI
+	second = BSS
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = REI
+	second = CRM
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = REI
+	second = CAU
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = REI
+	second = NTZ
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = REI
+	second = DNX
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = REI
+	second = NVX
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = REI
+	second = RKP
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}

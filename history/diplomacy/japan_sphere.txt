@@ -1,0 +1,61 @@
+vassal = {
+	first = JXX
+	second = MYY
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = JXX
+	second = JMQ
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = JXX
+	second = CQQ
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = JXX
+	second = JJC
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = JXX
+	second = GKL
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = JXX
+	second = YYN
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = JXX
+	second = IJQ
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = JXX
+	second = YYN
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = JXX
+	second = YYN
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = JXX
+	second = ZHZ
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+

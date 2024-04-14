@@ -14148,6 +14148,7 @@ wrrf_profesional_army = {
 tno_ai_modifier = {
 	global_unrest = -5
 	governing_capacity = 100000
+	diplomatic_upkeep = 25
 }
 
 bonus_1 = {

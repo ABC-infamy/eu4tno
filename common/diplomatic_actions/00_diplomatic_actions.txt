@@ -106,7 +106,16 @@ allianceaction = {
 		}
 	}
 }
-
+break_alliance = {
+	condition = {
+		tooltip = TNO_DISABLED
+		potential = {
+		}
+		allow = {
+			always = no 
+		}
+	}
+}
 royal_marriage = {
 	condition = {
 		tooltip = TNO_DISABLED

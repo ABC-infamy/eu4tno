@@ -1,0 +1,62 @@
+vassal = {
+	first = RIQ
+	second = GRQ
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = RIQ
+	second = ALQ
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = RIQ
+	second = MRN
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = RIQ
+	second = SRQ
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = RIQ
+	second = UST
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = RIQ
+	second = EGQ
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = RIQ
+	second = MXQ
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+vassal = {
+	first = RIQ
+	second = EPQ
+	start_date = 1444.1.1
+	end_date = 1900.4.1
+}
+
+alliance = {
+	first = RIQ
+	second = IBQ
+	start_date = 1444.1.1
+	end_date = 1900.1.1
+}
+
+alliance = {
+	first = RIQ
+	second = RKT
+	start_date = 1444.1.1
+	end_date = 1900.1.1
+}

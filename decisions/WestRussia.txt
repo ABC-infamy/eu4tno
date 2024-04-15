@@ -57,7 +57,7 @@ country_decisions = {
 		ai_importance = 400
 	}
 	###formed_superregional_russia
-	form_west_russia = {
+	form_superregional_russia = {
 		major = yes
 		potential = {
 			tag = WRF
@@ -111,11 +111,11 @@ country_decisions = {
 		ai_importance = 400
 	}
 	@@@
-	form_west_russia = {
+	form_unified_russia = {
 		major = yes
 		potential = {
 			tag = WRF
-			NOT = { has_country_flag = formed_superregional_russia }
+			NOT = { has_country_flag = united_all_russia }
 			OR = {
 				primary_culture = russian
 				primary_culture = novgorodian
@@ -163,5 +163,35 @@ country_decisions = {
 			factor = 1
 		}
 		ai_importance = 400
+	}
+	plunder_komi = {
+		major = no
+		potential = {
+			tag = WRF
+			AND = {
+				NOT = { has_country_flag = formed_west_russia }
+			    NOT = { 
+					has_dynamic_modifier = {
+					    modifier = wrrf_plunder_cooldown
+    					scope = REI
+					} 
+				} 
+			}
+		}
+		allow = {
+
+		}
+		effect = {
+			add_country_modifier = {
+				name = wrrf_plunder_cooldown
+				duration = 140
+				desc = WRRF_plunder_cooldown_DESC_TOOLTIP
+    			hidden = no
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 10
 	}
 }

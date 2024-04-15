@@ -40,7 +40,17 @@ tno_wrrf_missions_2 = {
 		required_missions = { wrf_our_situation }
 		provinces_to_highlight = {  }
 		trigger = {
-			treasury = 100
+			OR = {
+				AND = {
+					treasury = 100
+				}
+				AND = {
+					adm_tech = 4
+					dip_tech = 4
+					mil_tech = 4
+					ai = yes
+				}
+			}
 		}
 		effect = {
 			add_mercantilism = 2
@@ -63,12 +73,26 @@ tno_wrrf_missions_3 = {
 		required_missions = { wrf_our_situation }
 		provinces_to_highlight = {  }
 		trigger = {
-			manpower_percentage = 0.75
-			num_of_generals = 3
+			OR = {
+				AND = {
+					manpower_percentage = 0.75
+					num_of_generals = 3
+				}
+				AND = {
+					adm_tech = 4
+					dip_tech = 4
+					mil_tech = 4
+					ai = yes
+				}
+			}
 		}
 		effect = {
 			add_mil_power = 50
 			country_event = { id = tno_wrf.3 }
+			change_variable = {
+                which = wrf_tno_army_development_modifier_delta
+                value = 1
+            }
 		}
 	}
 }
@@ -88,17 +112,27 @@ tno_wrrf_missions_4 = {
 		provinces_to_highlight = {  }
 		trigger = {
 			OR = {
-				VLG = {
-					has_opinion = {
-						who = ROOT
-						value = 50
+				AND = {
+					OR = {
+						VLG = {
+							has_opinion = {
+								who = ROOT
+								value = 50
+							}
+						}
+						VIA = {
+							has_opinion = {
+								who = ROOT
+								value = 50
+							}
+						}
 					}
 				}
-				VIA = {
-					has_opinion = {
-						who = ROOT
-						value = 50
-					}
+				AND = {
+					adm_tech = 4
+					dip_tech = 4
+					mil_tech = 4
+					ai = yes
 				}
 			}
 		}
@@ -124,15 +158,27 @@ tno_wrrf_missions_5 = {
 		required_missions = { wrf_saving_economy }
 		provinces_to_highlight = {  }
 		trigger = {
-			AND = {
-				adm_tech = 5
-				dip_tech = 5
-				dip_power = 200
+			OR = {
+				AND = {
+					adm_tech = 5
+					dip_tech = 5
+					dip_power = 200
+				}
+				AND = {
+					adm_tech = 5
+					dip_tech = 5
+					mil_tech = 5
+					ai = yes
+				}
 			}
 		}
 		effect = {
 			dip_power = -200
 			country_event = { id = tno_wrf.5 }
+			change_variable = {
+                which = wrf_tno_agriculture_development_modifier_delta
+                value = 1
+            }
 		}
 	}
 }
@@ -151,8 +197,18 @@ tno_wrrf_missions_6 = {
 		required_missions = { wrf_reorganize_army }
 		provinces_to_highlight = {  }
 		trigger = {
-			mil_tech = 5
-			mil_power = 200
+			OR = {
+				AND = {
+					mil_tech = 5
+					mil_power = 200
+				}
+				AND = {
+					adm_tech = 5
+					dip_tech = 5
+					mil_tech = 5
+					ai = yes
+				}
+			}
 		}
 		effect = {
 			mil_power = -200
@@ -181,9 +237,19 @@ tno_wrrf_missions_7 = {
 		required_missions = { wrf_contact_warlords }
 		provinces_to_highlight = {  }
 		trigger = {
-			has_spy_network_in = {
-				WHO = FNL
-				value = 25
+			OR = {
+				AND = {
+					has_spy_network_in = {
+						WHO = FNL
+						value = 25
+					}
+				}
+				AND = {
+					adm_tech = 5
+					dip_tech = 5
+					mil_tech = 5
+					ai = yes
+				}
 			}
 		}
 		effect = {
@@ -208,7 +274,17 @@ tno_wrrf_missions_8 = {
 		required_missions = { wrf_agricultural_problem }
 		provinces_to_highlight = { 	}
 		trigger = {
-			grown_by_development = 10
+			OR = {
+				AND = {
+					grown_by_development = 10
+				}
+				AND = {
+					adm_tech = 6
+					dip_tech = 6
+					mil_tech = 6
+					ai = yes
+				}
+			}
 		}
 		effect = {
 			add_years_of_income = 1.5
@@ -221,6 +297,10 @@ tno_wrrf_missions_8 = {
 				culture = russian
 				religion = orthodox
 			}
+			change_variable = {
+                which = wrf_tno_industry_development_modifier_delta
+                value = 1
+            }
 		}
 	}
 }
@@ -239,7 +319,17 @@ tno_wrrf_missions_9 = {
 		required_missions = { wrf_increase_conscription }
 		provinces_to_highlight = {  }
 		trigger = {
-			national_focus = MIL
+			OR = {
+				AND = {
+					national_focus = MIL
+				}
+				AND = {
+					adm_tech = 6
+					dip_tech = 6
+					mil_tech = 6
+					ai = yes
+				}
+			}
 		}
 		effect = {
 			add_mil_tech = 1
@@ -261,9 +351,19 @@ tno_wrrf_missions_10 = {
 		required_missions = { wrf_sabotage_finland }
 		provinces_to_highlight = {  }
 		trigger = {
-			has_spy_network_in = {
-				WHO = MSK
-				value = 75
+			OR = {
+				AND = {
+					has_spy_network_in = {
+						WHO = MSK
+						value = 75
+					}
+				}
+				AND = {
+					adm_tech = 6
+					dip_tech = 6
+					mil_tech = 6
+					ai = yes
+				}
 			}
 		}
 		effect = {
@@ -297,12 +397,22 @@ tno_wrrf_missions_11 = {
 		required_missions = { wrf_increasing_production wrf_better_weapons wrf_sabotage_muscovy}
 		provinces_to_highlight = {  }
 		trigger = {
-			army_size_percentage = 1
-			adm_tech = 8
-			dip_tech = 8
-			mil_tech = 8
-			manpower_percentage = 0.95
-			num_of_generals = 1
+			OR = {
+				AND = {
+					army_size_percentage = 1
+					adm_tech = 8
+					dip_tech = 8
+					mil_tech = 8
+					manpower_percentage = 0.95
+					num_of_generals = 1
+				}
+				AND = {
+					adm_tech = 8
+					dip_tech = 8
+					mil_tech = 8
+					ai = yes
+				}
+			}
 		}
 		effect = {
 			if = {
@@ -655,6 +765,10 @@ tno_wrrf_missions_22 = {
 				desc = WRRF_famine_DESC_TOOLTIP
     			hidden = no
 			}
+			change_variable = {
+                which = tno_administration_development_modifier_delta
+                value = 1
+            }
 		}
 	}
 }
@@ -682,6 +796,10 @@ tno_wrrf_missions_23 = {
 				desc = wrrf_profesional_army_DESC_TOOLTIP
     			hidden = no
 			}
+			change_variable = {
+                which = wrf_tno_army_development_modifier_delta
+                value = 1
+            }
 		}
 	}
 }
@@ -1043,7 +1161,16 @@ tno_wrrf_missions_35 = {
 			num_of_rebel_armies = 0
 		}
 		effect = {
-
+			add_country_modifier = {
+				name = wrrf_integrate_urals
+				duration = 20
+				desc = WRRF_integrate_urals_DESC_TOOLTIP
+    			hidden = no
+			}
+			change_variable = {
+                which = tno_administration_development_modifier_delta
+                value = 1
+            }
 		}	
 	}
 }
@@ -1065,7 +1192,17 @@ tno_wrrf_missions_36 = {
 			treasury = 500
 		}
 		effect = {
-			
+			treasury = -500
+			add_mil_power = 150
+			random_owned_province = {
+				add_building = weapons
+			}
+			random_owned_province = {
+				add_building = barracks
+			}
+			random_owned_province = {
+				add_building = barrackss
+			}
 		}
 	}
 }
@@ -1096,7 +1233,12 @@ tno_wrrf_missions_37 = {
 			}
 		}
 		effect = {
-			
+			add_country_modifier = {
+				name = wrrf_well_aware
+				duration = -1
+				desc = WRRF_well_aware_DESC_TOOLTIP
+    			hidden = no
+			}
 		}
 	}
 }
@@ -1120,7 +1262,10 @@ tno_wrrf_missions_38 = {
 			legitimacy = 75
 		}
 		effect = {
-			
+			add_prestige = 10
+			add_splendor = 10
+			add_power_projection = 10
+			country_event = { id = tno_wrf.100 }
 		}
 	}
 }
@@ -1142,7 +1287,8 @@ tno_wrrf_missions_39 = {
 			treasury = 500
 		}
 		effect = {
-			
+			treasury = -500
+			add_mil_tech = 1
 		}
 	}
 }
@@ -1165,7 +1311,13 @@ tno_wrrf_missions_40 = {
 			num_of_generals = 3
 		}
 		effect = {
-			
+			add_country_modifier = {
+				name = wrrf_spy_masters
+				duration = -1
+				desc = WRRF_spy_masters_DESC_TOOLTIP
+    			hidden = no
+			}
+			treasury = -150
 		}
 	}
 }
@@ -1190,7 +1342,22 @@ tno_wrrf_missions_41 = {
 			}
 		}
 		effect = {
-			
+			change_variable = {
+                which = wrf_tno_industry_development_modifier_delta
+                value = 1
+            }
+			change_variable = {
+                which = wrf_tno_agriculture_development_modifier_delta
+                value = 1
+            }
+			change_variable = {
+                which = wrf_tno_education_development_modifier_delta
+                value = 1
+            }
+			change_variable = {
+                which = wrf_tno_poverty_development_modifier_delta
+                value = 3
+            }
 		}
 	}
 }
@@ -1213,7 +1380,10 @@ tno_wrrf_missions_42 = {
 			num_of_admirals = 3
 		}
 		effect = {
-			
+			change_variable = {
+                which = wrf_tno_army_development_modifier_delta
+                value = 3
+            }
 		}
 	}
 }
@@ -1232,10 +1402,10 @@ tno_wrrf_missions_43 = {
 		required_missions = { create_spy_agensy }
 		provinces_to_highlight = {  }
 		trigger = {
-			num_of_diplomats = 3
+			num_of_diplomats = 1
 		}
 		effect = {
-			
+			country_event = { id = tno_wrf.101 }
 		}
 	}
 }
@@ -1256,9 +1426,9 @@ tno_wrrf_missions_44 = {
 		position = 19
 		required_missions = { start_civilian_construction open_officer_academies prepare_for_wourld_stage }
 		trigger = {
-			adm_tech = 12
-			dip_tech = 12
-			mil_tech = 12
+			adm_tech = 16
+			dip_tech = 16
+			mil_tech = 16
 		}
 		effect = {
 				limit = {
@@ -1289,10 +1459,18 @@ tno_wrrf_missions_45 = {
 		position = 20
 		required_missions = { unification_war }
 		trigger = {
-
+			OR = {
+				ai = yes
+				is_at_war = yes
+			}
 		}
 		effect = {
-			
+			add_country_modifier = {
+				name = wrrf_bonus_3
+				duration = 20
+				desc = WRRF_bonus_3_DESC_TOOLTIP
+    			hidden = no
+			}
 		}
 	}
 }
@@ -1310,10 +1488,18 @@ tno_wrrf_missions_46 = {
 		position = 20
 		required_missions = { unification_war }
 		trigger = {
-			
+			OR = {
+				ai = yes
+				is_at_war = yes
+			}	
 		}
 		effect = {
-			
+			add_country_modifier = {
+				name = wrrf_bonus_4
+				duration = 20
+				desc = WRRF_bonus_4_DESC_TOOLTIP
+    			hidden = no
+			}
 		}
 	}
 }
@@ -1331,10 +1517,10 @@ tno_wrrf_missions_47 = {
 		position = 21
 		required_missions = { bonus_3 bonus_4 }
 		trigger = {
-			
+			has_country_flag = united_all_russia
 		}
 		effect = {
-			
+			country_event = { id = tno_wrf.102 }
 		}
 	}
 }

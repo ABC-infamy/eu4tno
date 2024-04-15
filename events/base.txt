@@ -80,7 +80,7 @@ country_event = {
             }
             change_variable = {
                 which = wrf_tno_administration_development_modifier
-                value = tno_administration_development_modifier_delta
+                value = wrf_tno_administration_development_modifier_delta
             }
         }
     }

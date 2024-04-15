@@ -4,6 +4,7 @@
 #12000 - 18000 Tier 3
 #18000 - 24000 Tier 4
 #24000 - 30000 Tier 5
+#8 Regional, 12 Superegional, 16 country, 20 Final war
 #The code snipped above is example for WRRF
 set_variable = {
     which = tno_army_development_modifier

@@ -102,7 +102,61 @@ country_decisions = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			set_country_flag = formed_superregional_russias
+			set_country_flag = formed_superregional_russia
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	@@@
+	form_west_russia = {
+		major = yes
+		potential = {
+			tag = WRF
+			NOT = { has_country_flag = formed_superregional_russia }
+			OR = {
+				primary_culture = russian
+				primary_culture = novgorodian
+				primary_culture = ryazanian
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1955	
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 12
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 1078
+			owns_core_province = 1075
+			owns_core_province = 1069
+			owns_core_province = 1072
+			owns_core_province = 4690
+			owns_core_province = 1076
+			owns_core_province = 1078
+			owns_core_province = 1080
+			owns_core_province = 2444
+			owns_core_province = 2441s
+		}
+		effect = {
+			complete_mission = wrf_russia_unified
+			swap_non_generic_missions = no
+			set_government_rank = 3
+			add_government_reform = tsardom
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = united_all_russia
 			add_prestige = 25
 		}
 		ai_will_do = {

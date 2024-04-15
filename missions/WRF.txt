@@ -655,7 +655,15 @@ tno_wrrf_missions_20 = {
 		required_missions = { wrf_celebrate_unification }
 		provinces_to_highlight = {  }
 		trigger = {
-			army_size_percentage = 1
+			OR = {
+					AND = {
+						army_size_percentage = 0.01
+						ai = yes
+					}
+					AND = {
+						army_size_percentage = 1
+					}
+				}
 		}
 		effect = {
 			1082 = {
@@ -742,20 +750,28 @@ tno_wrrf_missions_22 = {
 		required_missions = { wrf_prepare_integration }
 		provinces_to_highlight = { 	}
 		trigger = {
-			1955 = {
-				has_building = courthouse
-			}
-			1083 = {
-				has_building = courthouse
-			}
-			306 = {
-				has_building = courthouse
-			}
-			305 = {
-				has_building = courthouse
-			}
-			2420 = {
-				has_building = courthouse
+			OR = {
+				AND = {
+					1955 = {
+						has_building = courthouse
+					}
+					1083 = {
+						has_building = courthouse
+					}
+					306 = {
+						has_building = courthouse
+					}
+					305 = {
+						has_building = courthouse
+					}
+					2420 = {
+						has_building = courthouse
+					}
+				}
+				AND = {
+					adm_tech = 9
+					ai = yes
+				}
 			}
 		}
 		effect = {
@@ -787,7 +803,10 @@ tno_wrrf_missions_23 = {
 		required_missions = { wrf_conscript_new_lands }
 		provinces_to_highlight = {  }
 		trigger = {
-			army_tradition = 25
+			OR = {
+				army_tradition = 25
+				ai = yes
+			}
 		}
 		effect = {
 			add_country_modifier = {
@@ -843,16 +862,23 @@ tno_wrrf_missions_25 = {
 		required_missions = { wrf_develop_bureucracy }
 		provinces_to_highlight = { 	}
 		trigger = {
-			1955 = {
-				has_building = temple
+			OR = {
+				AND = {
+					1955 = {
+						has_building = temple
+					}
+					1083 = {
+						has_building = marketplace
+					}
+					306 = {
+						has_building = workshop
+					}
+					grown_by_development = 20
+				}
+				AND = {
+					ai = yes
+				}
 			}
-			1083 = {
-				has_building = marketplace
-			}
-			306 = {
-				has_building = workshop
-			}
-			grown_by_development = 20
 		}
 		effect = {
 			add_legitimacy = 25
@@ -902,11 +928,14 @@ tno_wrrf_missions_27 = {
 		required_missions = { wrf_second_winter_wars }
 		provinces_to_highlight = {  }
 		trigger = {
-			KZX = {
-				has_opinion = {
-					who = ROOT
-					value = 50
+			OR = {
+				KZX = {
+					has_opinion = {
+						who = ROOT
+						value = 50
+					}
 				}
+				ai = yes
 			}
 		}
 		effect = {
@@ -970,7 +999,10 @@ tno_wrrf_missions_29 = {
 		required_missions = { wrf_new_mils }
 		provinces_to_highlight = {  }
 		trigger = {
-			artillery_fraction = 0.3
+			OR = {
+				artillery_fraction = 0.3
+				ai = yes
+			}
 		}
 		effect = {
 			1955 = {
@@ -994,15 +1026,18 @@ tno_wrrf_missions_30 = {
 		required_missions = { wrf_diplo_kaz }
 		provinces_to_highlight = {  }
 		trigger = {
-			AND = {
-				has_spy_network_in = {
-					WHO = REI
-					value = 25
+			OR = {
+				AND = {
+					has_spy_network_in = {
+						WHO = REI
+						value = 25
+					}
+					has_spy_network_in = {
+						WHO = MSK
+						value = 25
+					}
 				}
-				has_spy_network_in = {
-					WHO = MSK
-					value = 25
-				}
+				ai = yes
 			}
 		}
 		effect = {
@@ -1189,7 +1224,10 @@ tno_wrrf_missions_36 = {
 		required_missions = { superregional_unification }
 		provinces_to_highlight = {  }
 		trigger = {
-			treasury = 500
+			OR = {
+				treasury = 500
+				ai = yes
+			}
 		}
 		effect = {
 			treasury = -500
@@ -1221,15 +1259,18 @@ tno_wrrf_missions_37 = {
 		required_missions = { superregional_unification }
 		provinces_to_highlight = {  }
 		trigger = {
-			AND = {
-				has_spy_network_in = {
-					WHO = REI
-					value = 50
+			OR = {
+				AND = {
+					has_spy_network_in = {
+						WHO = REI
+						value = 50
+					}
+					has_spy_network_in = {
+						WHO = MSK
+						value = 50
+					}
 				}
-				has_spy_network_in = {
-					WHO = MSK
-					value = 50
-				}
+				ai = yes
 			}
 		}
 		effect = {
@@ -1258,8 +1299,15 @@ tno_wrrf_missions_38 = {
 		required_missions = { integrate_urals }
 		provinces_to_highlight = {  }
 		trigger = {
-			stability = 3
-			legitimacy = 75
+			OR = {
+				AND = {
+					stability = 3
+					legitimacy = 75
+				}
+				AND = {
+					ai = yes
+				}
+			}
 		}
 		effect = {
 			add_prestige = 10
@@ -1284,7 +1332,10 @@ tno_wrrf_missions_39 = {
 		required_missions = { build_new_mils }
 		provinces_to_highlight = {  }
 		trigger = {
-			treasury = 500
+			OR = {
+				treasury = 500
+				ai = yes
+			}
 		}
 		effect = {
 			treasury = -500
@@ -1307,8 +1358,13 @@ tno_wrrf_missions_40 = {
 		required_missions = { gather_data }
 		provinces_to_highlight = {  }
 		trigger = {
-			treasury = 250
-			num_of_generals = 3
+			OR = {
+				AND = {
+					treasury = 250
+					num_of_generals = 3
+				}
+				ai = yes
+			}
 		}
 		effect = {
 			add_country_modifier = {
@@ -1337,8 +1393,11 @@ tno_wrrf_missions_41 = {
 		required_missions = { raise_patriotism }
 		provinces_to_highlight = {  }
 		trigger = {
-			1955 = {
-				is_prosperous = yes
+			OR = {
+				1955 = {
+					is_prosperous = yes
+				}
+				ai = yes
 			}
 		}
 		effect = {
@@ -1376,8 +1435,13 @@ tno_wrrf_missions_42 = {
 		required_missions = { invest_in_technology }
 		provinces_to_highlight = {  }
 		trigger = {
-			num_of_generals = 3
-			num_of_admirals = 3
+			OR = {
+				AND = {
+					num_of_generals = 3
+					num_of_admirals = 3
+				}
+				ai = yes
+			}
 		}
 		effect = {
 			change_variable = {
@@ -1732,14 +1796,15 @@ tno_wrrf_missions_57 = {
 		position = 25
 		required_missions = { wrf_prepare_last_war wrf_hire_instructors wrf_enter_wourld_stage }
 		trigger = {
-			
+			adm_tech = 20
+			dip_tech = 20
+			mil_tech = 20
 		}
 		effect = {
-			
+			declare_war = REI
 		}
 	}	
 }
-## FINAL WAR
 tno_wrrf_missions_58 = {
 	slot = 1
 	generic = no

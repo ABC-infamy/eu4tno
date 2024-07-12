@@ -2404,3 +2404,8 @@
  tno_base_lore.1.t:0 "The New Wourld Order"
  tno_base_lore.1.d:0 "The would in which the axis powers were victorious in WW2"
  tno_base_lore.1.a:0 "Here it goes..."
+ tno_wrf.201.t:0 "Raiding party reports"
+ tno_wrf.201.d:0 "Our soliders have suscsesfully performed a raid on the enemies territory. We have gained temporal controll over couple of villages. Before the enemy forces consolidate we have some time to loot. What shall we take?"
+ tno_wrf.201.a:0 "Take their money"
+ tno_wrf.201.b:0 "Take their equipment"
+ tno_wrf.201.c:0 "Take their weapons"

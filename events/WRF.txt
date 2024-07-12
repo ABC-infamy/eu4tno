@@ -306,3 +306,41 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = tno_wrf.201
+	title = "tno_wrf.201.t"
+	desc = "tno_wrf.201.d"
+	picture = BORDER_TENSION_eventPicture
+	
+	trigger = {
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = "tno_wrf.201.a"
+		add_adm_power = 10
+		4262 = {
+			add_devastation = 1
+		}
+	}
+	option = {
+		name = "tno_wrf.201.b"
+		add_dip_power = 10
+		4262 = {
+			add_devastation = 1
+		}
+	}
+	option = {
+		name = "tno_wrf.201.c"
+		add_mil_power = 10
+		4262 = {
+			add_devastation = 1
+		}
+	}
+}
+

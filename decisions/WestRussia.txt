@@ -91,7 +91,7 @@ country_decisions = {
 			owns_core_province = 1078
 			owns_core_province = 1080
 			owns_core_province = 2444
-			owns_core_province = 2441s
+			owns_core_province = 2441
 		}
 		effect = {
 			complete_mission = celebrate_unification
@@ -110,7 +110,6 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
-	@@@
 	form_unified_russia = {
 		major = yes
 		potential = {
@@ -132,20 +131,20 @@ country_decisions = {
 			}
 		}
 		allow = {
-			adm_tech = 12
+			adm_tech = 15
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			owns_core_province = 1078
-			owns_core_province = 1075
-			owns_core_province = 1069
-			owns_core_province = 1072
-			owns_core_province = 4690
-			owns_core_province = 1076
-			owns_core_province = 1078
-			owns_core_province = 1080
-			owns_core_province = 2444
-			owns_core_province = 2441s
+			owns_core_province = 1060
+			owns_core_province = 2436
+			owns_core_province = 1051
+			owns_core_province = 1046
+			owns_core_province = 1044
+			owns_core_province = 1034
+			owns_core_province = 2434
+			owns_core_province = 1058
+			owns_core_province = 1047
+			owns_core_province = 1040
 		}
 		effect = {
 			complete_mission = wrf_russia_unified
@@ -168,23 +167,24 @@ country_decisions = {
 		major = no
 		potential = {
 			tag = WRF
-			AND = {
-				NOT = { has_country_flag = formed_west_russia }
-			    NOT = { 
-					has_dynamic_modifier = {
-					    modifier = wrrf_plunder_cooldown
-    					scope = REI
-					} 
-				} 
-			}
+			exists = KOM
 		}
 		allow = {
-
+			army_strength = {
+				who = KOM
+				value = 1.50
+			}
+			AND = {
+				NOT = { has_country_flag = formed_west_russia }
+			    NOT = { has_country_modifier = wrrf_plunder_cooldown } 
+			}
 		}
 		effect = {
+			country_event = { id = tno_wrf.201 }
+			add_treasury = 25
 			add_country_modifier = {
 				name = wrrf_plunder_cooldown
-				duration = 140
+				duration = 240
 				desc = WRRF_plunder_cooldown_DESC_TOOLTIP
     			hidden = no
 			}

@@ -14145,6 +14145,40 @@ wrrf_profesional_army = {
 	reinforce_speed = 0.10
 }
 
+wrrf_spy_masters = {
+	spy_offence = 0.25
+	global_spy_defence = 0.50
+}
+
+wrrf_well_aware = {
+	diplomatic_reputation = 1
+	ae_impact = -0.05
+}
+
+wrrf_bonus_3 = {
+	land_morale = 0.10
+	land_attrition = -0.10
+}
+
+wrrf_bonus_4 = {
+	fire_damage_received = -0.05
+	shock_damage_received = -0.02
+}
+
+wrrf_integration_problems = {
+	administrative_efficiency = -0.15
+}
+
+wrrf_mil_tech_rush = {
+	technology_cost = -0.1
+	global_tax_modifier = -0.05
+}
+
+wrrf_plunder_cooldown = {
+	discipline = -0.01
+	mercenary_cost = -0.25
+}
+
 tno_ai_modifier = {
 	global_unrest = -5
 	governing_capacity = 100000

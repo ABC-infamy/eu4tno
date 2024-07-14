@@ -12,7 +12,7 @@ BASHKIRS : BSK -
 GORKY : GOR - 
 ORENBURG : ORE -
 URAL LEAGUE : URA -
-Onega : ONE
+Onega : ONG
 Ukraine : UKA
 Ostland: OST
 Finland : FNL

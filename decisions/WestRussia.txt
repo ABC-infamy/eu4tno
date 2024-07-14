@@ -194,4 +194,35 @@ country_decisions = {
 		}
 		ai_importance = 10
 	}
+	plunder_onega = {
+		major = no
+		potential = {
+			tag = WRF
+			exists = ONE
+		}
+		allow = {
+			army_strength = {
+				who = ONE
+				value = 1.50
+			}
+			AND = {
+				NOT = { has_country_flag = formed_west_russia }
+			    NOT = { has_country_modifier = wrrf_plunder_cooldown } 
+			}
+		}
+		effect = {
+			country_event = { id = tno_wrf.202 }
+			add_treasury = 25
+			add_country_modifier = {
+				name = wrrf_plunder_cooldown
+				duration = 240
+				desc = WRRF_plunder_cooldown_DESC_TOOLTIP
+    			hidden = no
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 10
+	}
 }

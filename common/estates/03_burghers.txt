@@ -212,7 +212,6 @@ estate_burghers = {
 		desc = estate_civilians
 		trigger = {
 			tag = WRF
-			culture_group = byzantine
 		}
 	}
 	custom_name = {

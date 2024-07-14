@@ -7,7 +7,5 @@ base_manpower = 1
 culture = khazak
 religion = sunni
 trade_goods = grain
-hre= no
-capital = Lower Ishim
 discovered_by = eastern
 discovered_by = western

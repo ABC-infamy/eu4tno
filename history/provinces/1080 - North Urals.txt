@@ -7,7 +7,5 @@ base_manpower = 3
 culture = russian
 religion = orthodox
 trade_goods = iron
-hre= no
-capital = North Urals
 discovered_by = eastern
 discovered_by = western

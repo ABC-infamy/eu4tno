@@ -76,7 +76,7 @@ tno_wrrf_missions_3 = {
 			OR = {
 				AND = {
 					manpower_percentage = 0.75
-					num_of_generals = 3
+					num_of_generals = 2
 				}
 				AND = {
 					adm_tech = 4
@@ -121,6 +121,18 @@ tno_wrrf_missions_4 = {
 							}
 						}
 						VIA = {
+							has_opinion = {
+								who = ROOT
+								value = 50
+							}
+						}
+						KOM = {
+							has_opinion = {
+								who = ROOT
+								value = 50
+							}
+						}
+						GOR = {
 							has_opinion = {
 								who = ROOT
 								value = 50
@@ -212,7 +224,7 @@ tno_wrrf_missions_6 = {
 		}
 		effect = {
 			mil_power = -200
-			add_manpower = 15000
+			add_manpower = 10
 			1955 = {
 				add_building = barracks
 			}
@@ -254,6 +266,9 @@ tno_wrrf_missions_7 = {
 		}
 		effect = {
 			1777 = {
+				add_unrest = 3
+			}
+			1776 = {
 				add_unrest = 3
 			}
 		}
@@ -840,7 +855,7 @@ tno_wrrf_missions_24 = {
 		}
 		effect = {
 			declare_war = FNL
-			declare_war = ONE
+			declare_war = ONG
 		}
 	}
 }
@@ -1634,7 +1649,7 @@ tno_wrrf_missions_49 = {
 		}
 		effect = {
 			#add_years_of_owned_provinces_manpower = 2
-			add_manpower = 200
+			add_manpower = 20
 		}
 	}	
 }
@@ -1981,7 +1996,7 @@ tno_wrrf_missions_62 = {
 
 		}
 		effect = {
-			add_manpower = 25000
+			add_manpower = 25
 		}
 	}
 }
@@ -2106,7 +2121,7 @@ tno_wrrf_missions_67 = {
 			manpower_percentage = 0.20
 		}
 		effect = {
-			add_manpower = -15000
+			add_manpower = -15
 		}
 	}
 }
@@ -2151,7 +2166,7 @@ tno_wrrf_missions_69 = {
 		}
 		effect = {
 			add_treasury = -500
-			add_manpower = 25000
+			add_manpower = 25
 		}
 	}
 }

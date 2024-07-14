@@ -199,7 +199,6 @@ estate_church = {
 		desc = estate_commisars
 		trigger = {
 			tag = WRF
-			culture_group = byzantine
 		}
 	}
 	custom_name = {

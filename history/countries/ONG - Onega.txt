@@ -4,13 +4,13 @@ primary_culture = russian
 religion = orthodox
 technology_group = eastern
 unit_type = eastern
-capital = 313 # Moskva
+capital = 313
 government_rank = 3
 
 1443.1.1 = {
 	monarch = {
 		name = "Andrey"
-		dynasty = "Kirpichnikov"
+		dynasty = "Kirpichnikof"
 		birth_date = 1410.1.1
 		dip = 5
 		adm = 2

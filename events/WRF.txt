@@ -27,7 +27,50 @@ country_event = {
 			which = powerStruggle
 			value = 5
 		}
-		#WRRF sovcietal development
+		effect = {
+			add_country_modifier = {
+				name = wrrf_famine
+				duration = -1
+				desc = WRRF_famine_DESC_TOOLTIP
+    			hidden = no
+			}
+			add_country_modifier = {
+				name = semi_professional_force
+				duration = -1
+				desc = semi_professional_force_DESC_TOOLTIP
+				hidden = no
+			}
+			add_country_modifier = {
+				name = unorganised_factories
+				duration = -1
+				desc = unorganised_factories_DESC_TOOLTIP
+				hidden = no
+			}
+			add_country_modifier = {
+				name = feudal_organisation
+				duration = -1
+				desc = feudal_organisation_DESC_TOOLTIP
+				hidden = no
+			}
+			add_country_modifier = {
+				name = elementary_education
+				duration = -1
+				desc = elementary_education_DESC_TOOLTIP
+				hidden = no
+			}
+			add_country_modifier = {
+				name = high_level_poverty
+				duration = -1
+				desc = high_level_povertyDESC_TOOLTIP
+				hidden = no
+			}
+			add_country_modifier = {
+				name = ineficient_administration
+				duration = -1
+				desc = ineficient_administration_DESC_TOOLTIP
+				hidden = no
+			}
+		}
 		set_variable = {
 			which = wrf_tno_army_development_modifier
 			value = 8000
@@ -344,3 +387,60 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = tno_wrf.8
+	title = "tno_wrf.8.t"
+	desc = "tno_wrf.8.d"
+	picture = CITY_VIEW_eventPicture
+	
+	trigger = {
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = "tno_wrf.8.a"
+	}
+}
+
+country_event = {
+	id = tno_wrf.202
+	title = "tno_wrf.202.t"
+	desc = "tno_wrf.202.d"
+	picture = BORDER_TENSION_eventPicture
+	
+	trigger = {
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = "tno_wrf.202.a"
+		add_adm_power = 10
+		313 = {
+			add_devastation = 1
+		}
+	}
+	option = {
+		name = "tno_wrf.202.b"
+		add_dip_power = 10
+		313 = {
+			add_devastation = 1
+		}
+	}
+	option = {
+		name = "tno_wrf.202.c"
+		add_mil_power = 10
+		313 = {
+			add_devastation = 1
+		}
+	}
+}

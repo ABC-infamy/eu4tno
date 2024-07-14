@@ -21,22 +21,24 @@ country_event = {
         days = 1
     }
 
-    option = {
-        name = tno_base_lore.1.a
+    immediate = {
         hidden_effect = {
             every_country = {
                 limit = {
-                    #ai = yes
-                    always = yes
+                    ai = yes
                 }
+                add_manpower 10
                 add_country_modifier = {
                     name = tno_ai_modifier
                     duration = -1
                     desc = tno_ai_modifier_DESC_TOOLTIP
                     hidden = no
-			    }
-            }
+                }
+            }  
         }
+    }
+    option = {
+        name = tno_base_lore.1.a
     }
 }
 
